@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="no" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS</title>
+    <style media="screen">
+
+      body{
+        background-color:beige;padding:20px;
+    }
+
+      h1{
+        color: #546353;
+        text-align: center;
+        background-color:white;
+        border: 2px dashed black;
+        outline-style: groove;
+        outline-color: invert;
+      }
+
+      p{
+        font-size: 20px;
+        font-family: "Georgia", Times, serif;
+        color:#ab3266;
+        padding:8px;
+        text-shadow: -2px 4px 5px silver;
+        margin:-1.5px;
+      }
+
+      table{
+        border-collapse: collapse;
+
+      }
+
+      th{
+        background-color: silver;
+        color: black;
+      }
+
+      th, td{
+        text-align: left;
+        padding:15px;
+        border-bottom: 1px solid silver;
+        border-right: 1px solid silver;
+        border-left: 1px solid silver;
+      }
+
+      button:hover{
+        transform: skewX(180deg); transition: 4s;
+      }
+
+
+
+      td:hover {background-color: #f5f5f5;transform: skewX(180deg); transition: 2s;}
+      th:hover {background-color: #f5f5f5;color:red;transform: skewX(180deg); transition: 2s;}
+    </style>
+  </head>
+  <body>
+    <h1>
+      Cascading Style Sheets
+    </h1>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <table>
+      <tr>
+        <th>Testen</th>
+        <th>Test-to</th>
+        <th>Test-tre</th>
+      </tr>
+      <tr>
+        <td><a href="bord.html" target="_blank">lenken</a></td>
+        <td><a href="https://github.com/" target="_blank">Lenk-to</a></td>
+        <td><a href="../Uke 35/Ferie.html" target="_blank">Lenk-tre</a></td>
+      </tr>
+      <tr>
+        <td colspan="3"> <a href="https://www.reddit.com/r/Ooer/" target="_blank">Ikke lag side sånn som her</a> </td>
+      </tr>
+
+
+    </table>
+
+    <form action="bord.html">
+      <input type="text" name="navn" required placeholder="Hva heter du?">
+      <button type="submit" name="button"><img src="../Uke 35/Bilder/Iona, Shield of Emeria.jpg" height=40px width=28px></button><br>
+      <label>Hva ønsker du å drikke?</label><br>
+      <input type="radio" name="drikke" required><span>Brus</span>
+      <input type="radio" name="drikke" required><span>Vodka</span>
+      <input type="radio" name="drikke" required><span>Tequilla</span> <br>
+    </form>
+
+
+  </body>
+</html>
