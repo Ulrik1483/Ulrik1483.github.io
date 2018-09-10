@@ -1,0 +1,7 @@
+h1{
+  background-color: beige;
+  text-align:center;
+  color:#34aa6f;
+  border:2px solid black;
+}
+h1:hover{color:black;}
