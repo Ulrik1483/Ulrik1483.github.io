@@ -67,5 +67,7 @@ li a{
 li a:hover{
   color:white;
   background-color: #555;
-  transform: scale(1.1);
+}
+a:hover{
+  transform: scale(1.5);
 }
