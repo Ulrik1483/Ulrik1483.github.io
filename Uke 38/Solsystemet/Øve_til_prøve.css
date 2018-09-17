@@ -1,0 +1,58 @@
+h1{
+  text-align: center;
+  color:white;
+  background-color: black;
+  border: solid beige;
+  font-style: normal;
+  font-size: 38px;
+  font-family: sans-serif;
+}
+a{
+  color:white;
+  text-decoration: none;
+  font-size:18px;
+  padding-left: 25px;
+}
+a:hover{
+  color:red;
+  text-decoration: underline;
+}
+a:active{
+  color:purple;
+}
+
+img{
+  height:150px;
+  width: 150px;
+  padding-left:10px;
+}
+b{
+  font-size:30px;
+  padding-left: 25px;
+}
+p{
+  display:grid;
+  grid-template-columns: 1fr;
+}
+body{
+  background-image:url("../Bilder/Stellaris.jpg");
+  background-attachment: fixed;
+  color:white;
+}
+div{
+  background-color: black;
+  border: solid white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+article{
+  font-family: Arial, Helvetica, sans-serif
+}
+#revolutionparrot{
+  height:20px;
+  width:20px;
+}
+#scienceparrot{
+  height: 40px;
+  width: 40px;
+}

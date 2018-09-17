@@ -1,0 +1,20 @@
+main>p{
+  background-color: beige;
+  text-align: center;
+  border-radius: 10px;
+}
+main{
+  background-image: linear-gradient(black,gold,silver,black);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 400px;
+  grid-row-gap: 100px;
+}
+main>p:hover{
+  color:navy;
+  transform: scale(1.5,1.5);
+}
+main>p:active{
+  transform:scale(1,1);
+}
