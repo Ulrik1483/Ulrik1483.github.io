@@ -15,12 +15,10 @@ a{
 }
 a:hover{
   color:red;
-  text-decoration: underline;
 }
 a:active{
   color:purple;
 }
-
 img{
   height:150px;
   width: 150px;
@@ -29,10 +27,6 @@ img{
 b{
   font-size:30px;
   padding-left: 25px;
-}
-p{
-  display:grid;
-  grid-template-columns: 1fr;
 }
 body{
   background-image:url("../Bilder/Stellaris.jpg");
