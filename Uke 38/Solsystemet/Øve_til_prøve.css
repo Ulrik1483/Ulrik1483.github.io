@@ -1,11 +1,12 @@
 h1{
   text-align: center;
   color:white;
-  background-color: black;
+  background-image: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
   border: solid beige;
   font-style: normal;
   font-size: 38px;
   font-family: sans-serif;
+  border-radius: 20px;
 }
 a{
   color:white;
@@ -17,7 +18,7 @@ a:hover{
   color:red;
 }
 a:active{
-  color:purple;
+  color:beige;
 }
 img{
   height:150px;
@@ -31,6 +32,7 @@ b{
 body{
   background-image:url("../Bilder/Stellaris.jpg");
   background-attachment: fixed;
+  background-position: 50% 50%;
   color:white;
 }
 div{
@@ -38,6 +40,8 @@ div{
   border: solid white;
   padding-bottom: 20px;
   padding-top: 20px;
+  border-radius: 20px;
+  padding:5px;
 }
 article{
   font-family: Arial, Helvetica, sans-serif
