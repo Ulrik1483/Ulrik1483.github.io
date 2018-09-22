@@ -1,0 +1,56 @@
+body{
+  background-image:url(../Bilder/Command_and_conquer.jpg);
+  background-position: 100%;
+  background-attachment: fixed;
+}
+table{
+  border-collapse:collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+table.striped>tbody>tr:nth-child(odd){
+  background-color: springgreen;
+  border-collapse:collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+thead>tr{
+  background-color: beige;
+}
+tbody>tr{
+  background-color: gold;
+}
+th{
+  text-align: left;
+  padding: 7px 13px;
+  border: solid olive;
+  border-bottom: solid darkolivegreen;
+  font-size: 16px;
+  font-family:"Adamina";
+}
+td{
+  padding: 7px 14px;
+  border: solid olive;
+  font-size: 18px;
+  font-family: "Georgia", Georgia, serif;
+}
+tbody>tr:active{
+  background-color:white;
+}
+h1{
+  background-color: Azure;
+}
+h1~p{
+  background-color:Bisque;
+}
+p:active{
+  color:red;
+}
+li{
+  border-collapse:collapse;
+  background-color: BlueViolet;
+  border: solid Bisque;
+}
+ul{
+  margin-right: 90%;
+}
