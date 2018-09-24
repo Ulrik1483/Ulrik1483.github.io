@@ -8,6 +8,10 @@ h1{
   font-family: sans-serif;
   border-radius: 20px;
 }
+h1::selection{
+  color:darkorange;
+  background-color: pink;
+}
 a{
   color:white;
   text-decoration: none;
@@ -20,20 +24,45 @@ a:hover{
 a:active{
   color:beige;
 }
-img{
+a::selection{
+  color:darkorange;
+  background-color: pink;
+}
+.stjerne{
   height:150px;
   width: 150px;
   padding-left:10px;
+  filter:sepia(40%) opacity(50%);
+}
+.stjerne:active{
+  filter:none;
+}
+img.planet{
+  height:150px;
+  width: 150px;
+  padding-left:10px;
+  filter: drop-shadow(-8px -5px 10px black) sepia(40%) opacity(50%);
+}
+img.planet:active{
+  filter: drop-shadow(-8px -5px 10px black);
 }
 b{
   font-size:30px;
   padding-left: 25px;
+}
+b::selection{
+  color:darkorange;
+  background-color: pink;
 }
 body{
   background-image:url("../Bilder/Stellaris.jpg");
   background-attachment: fixed;
   background-position: 50% 50%;
   color:white;
+}
+div::selection{
+  color:darkorange;
+  background-color: pink;
 }
 div{
   background-color: black;
