@@ -1,0 +1,47 @@
+body{
+  background-color: lightblue;
+  margin-left: 200px;
+  /*Byttet til en font jeg mener passer bedre til nettsidene*/
+  font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+  font-style: italic;
+}
+/*Gjør navigasjonsbaren ryddigere og finere*/
+ul{
+  list-style-type: none;
+}
+li{
+  display:inline;
+}
+li>a{
+  padding: 10px;
+  text-decoration: none;
+}
+img{
+  width: 400px;
+}
+video{
+  width: 300px;
+}
+form{
+  padding-top: 10px;
+}
+table{
+  border-collapse: collapse;
+}
+tr:nth-child(even){
+  background-color: BurlyWood;
+}
+th{
+  border-bottom: 2px solid orange;
+}
+td{
+  border: 1px solid orange;
+}
+td.first{
+  border-left:none;
+}
+td.last{
+  border-right:none;
+}
