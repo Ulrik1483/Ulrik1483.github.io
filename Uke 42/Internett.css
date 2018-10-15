@@ -5,6 +5,14 @@ h1{
   color:darkolivegreen;
   text-decoration: underline;
 }
+h2{
+  margin-bottom: -12px;
+}
 li{
   font-size:18px;
+}
+p{
+  margin-bottom: -10px;
+  font-size:18px;
+  padding-left: 8px;
 }
