@@ -1,0 +1,4 @@
+<div class="ikke-metall"><article></article><p></p></div>
+<div class="halvmetall"><article></article><p></p></div>
+<div class="metall"><article></article><p></p></div>
+<div class="NOP"><article></article><p></p></div>
