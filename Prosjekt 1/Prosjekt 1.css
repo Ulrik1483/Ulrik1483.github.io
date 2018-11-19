@@ -1,5 +1,6 @@
 body{
   background-image: url("Bilder/Background.jpg");
+  background-position: 100%;
   background-attachment: fixed;
   padding-left: 20px;
   padding-right: 20px;
@@ -7,14 +8,9 @@ body{
 }
 nav{
   margin-top: -6px;
-  padding-left: 18px;
   background-color: black;
   filter: opacity(80%);
   font-size: 22px;
-  /*
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  */
   border-top: solid rgb(127, 112, 96);
   border-bottom: solid rgb(127, 112, 96);
   padding: 20px;
@@ -22,7 +18,7 @@ nav{
 nav>a{
   color: rgb(127, 112, 96);
   text-decoration: none;
-  margin-left: 18%;
+  margin-left: 11%;
 }
 nav>a:hover{
   filter: opacity(70%);
@@ -33,7 +29,34 @@ nav>a:hover{
   height: 30px;
   margin-top: -18px;
 }
-.main{
+.banner{
   margin-top: -20px;
   width: 100%;
+}
+h1{
+  padding-left: 12px;
+  margin-top: -0.5px;
+  color: rgb(127, 112, 96);
+  font-size:38px;
+  font-family: "Angkor";
+  background-color: rgb(41, 41, 41);
+  filter: opacity(80%);
+  padding: 18px;
+}
+img{
+  width: 100%;
+  margin-top:-26px;
+}
+article{
+  background-color: rgb(41, 41, 41);
+  color: rgb(152, 150, 142);
+  margin-top: -4px;
+  padding: 8px;
+  border-bottom: 3px solid rgb(127, 112, 96);
+}
+.footer{
+  background-color: rgb(41, 41, 41);
+  color: rgb(152, 150, 142);
+  padding: 8px;
+  text-align: center;
 }
