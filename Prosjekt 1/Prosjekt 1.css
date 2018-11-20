@@ -30,20 +30,15 @@ nav>a:hover{
 nav>a:active{
   transform: scale(0.9);
 }
-#top{
-  background-color: black;
-  height: 30px;
-  margin-top: -18px;
-}
 .banner{
-  margin-top: -20px;
+  border-top: 44px solid rgba(0, 0, 0, 0.6);
   width: 100%;
 }
 h1{
   padding-left: 12px;
   margin-top: -0.5px;
   color: rgb(127, 112, 96);
-  font-size:38px;
+  font-size: 52px;
   font-family: "Angkor";
   background-color: rgb(41, 41, 41);
   filter: opacity(80%);
@@ -51,14 +46,20 @@ h1{
 }
 img{
   width: 100%;
-  margin-top:-26px;
+  margin-top:-35px;
 }
 article{
   background-color: rgb(41, 41, 41);
   color: rgb(152, 150, 142);
+  font-size: 26px;
   margin-top: -4px;
   padding: 8px;
   border-bottom: 3px solid rgb(127, 112, 96);
+}
+article>a{
+  text-decoration: none;
+  color: rgb(152, 150, 142);
+  font-weight: bold;
 }
 .footer{
   background-color: rgb(41, 41, 41);
