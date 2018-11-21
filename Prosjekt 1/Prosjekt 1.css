@@ -2,8 +2,8 @@ body{
   background-image: url("Bilder/Background.jpg");
   background-size: cover;
   background-attachment: fixed;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
   font-family: "Rubik";
 }
 nav{
@@ -31,7 +31,7 @@ nav>a:active{
   transform: scale(0.9);
 }
 .banner{
-  border-top: 44px solid rgba(0, 0, 0, 0.6);
+  border-top: 44px solid rgba(0, 0, 0, 0.8);
   width: 100%;
 }
 h1{

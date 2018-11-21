@@ -1,4 +1,4 @@
-Banner forhold=32:5
+Banner forhold= 32:5
 
 Img info=
 forhold: 17:5
