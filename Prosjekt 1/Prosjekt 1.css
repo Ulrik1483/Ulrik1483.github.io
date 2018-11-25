@@ -61,9 +61,6 @@ img{
   color: rgb(152, 150, 142);
   font-weight: bold;
 }
-video{
-  width: 100%;
-}
 .footer{
   background-color: rgb(41, 41, 41);
   color: rgb(152, 150, 142);
@@ -89,4 +86,9 @@ h2{
   font-size: 24px;
   margin-top: -14px;
   padding-right: 20px;
+}
+.Featured{
+  margin-top: -35px;
+  margin-bottom: -5px;
+  width: 100%;
 }
