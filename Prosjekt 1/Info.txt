@@ -7,3 +7,5 @@ Width: 26,67 inches / 1920 pixels
 72 pixels/inch
 
 Color: rgb(152, 150, 142);
+
+Band Bio forhold: 21:25

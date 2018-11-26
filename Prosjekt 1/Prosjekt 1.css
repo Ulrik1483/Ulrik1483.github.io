@@ -127,3 +127,6 @@ a{
   color: rgb(152, 150, 142);
   font-size:18.5px;
 }
+.Biografi>div>img{
+  width: 100%;
+}
