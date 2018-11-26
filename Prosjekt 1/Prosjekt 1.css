@@ -17,6 +17,9 @@ nav{
   display: grid;
   grid-template-columns: repeat(4, 1fr)
 }
+.Halv_nav{
+  grid-template-columns: repeat(2, 1fr);
+}
 nav>a{
   color: rgb(127, 112, 96);
   text-decoration: none;
@@ -44,7 +47,7 @@ h1{
   filter: opacity(80%);
   padding: 18px;
 }
-img{
+#Standard_img{
   width: 100%;
   margin-top:-35px;
 }
@@ -91,4 +94,36 @@ h2{
   margin-top: -35px;
   margin-bottom: -5px;
   width: 100%;
+}
+.Album{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top:-35px;
+  background-color: rgb(52, 52, 52);
+}
+.Album>div>img{
+  width: 100%;
+}
+.Album_artikkel{
+  font-size:24px;
+  padding-bottom:20px;
+  color: rgb(152, 150, 142);
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+.Album_1{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top:-35px;
+  background-color: rgb(52, 52, 52);
+}
+.Album_1>div>img{
+  width:100%;
+}
+.Liste>ol>li{
+  padding-bottom:20px;
+  color: rgb(152, 150, 142);
+  font-size:18.5px;
 }
