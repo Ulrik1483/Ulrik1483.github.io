@@ -43,8 +43,8 @@ h1{
   color: rgb(127, 112, 96);
   font-size: 58px;
   font-family: "Angkor";
-  background-color: rgb(41, 41, 41);
-  filter: opacity(80%);
+  background-color: rgb(20, 20, 20);
+  filter: opacity(90%);
   padding: 18px;
 }
 #Standard_img{
@@ -99,16 +99,16 @@ h2{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top:-39px;
-  background-color: rgb(52, 52, 52);
+  background-color: rgb(20, 20, 20);
 }
 .Album>div>img{
   width: 100%;
+  transform: scale(0.7);
+  margin-bottom: -50px;
 }
 .Album_artikkel{
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 900;
-  padding-top: 20px;
-  padding-bottom: 30px;
   color: rgb(152, 150, 142);
   text-align: center;
 }
