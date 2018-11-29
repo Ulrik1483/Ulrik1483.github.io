@@ -20,6 +20,9 @@ nav{
 .Halv_nav{
   grid-template-columns: repeat(2, 1fr);
 }
+.Liten_nav{
+  grid-template-columns: repeat(3, 1fr);
+}
 nav>a{
   color: rgb(127, 112, 96);
   text-decoration: none;
@@ -99,7 +102,7 @@ h2{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top:-39px;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
   background-color: rgb(20, 20, 20);
 }
 .Album>div>img{
@@ -121,10 +124,15 @@ a{
   grid-template-columns: repeat(2, 1fr);
   margin-top:-39px;
   padding-bottom: 20px;
-  background-color: rgb(52, 52, 52);
+  background-color: rgb(32, 32, 32);
 }
 .Album_1>div>img{
   width:100%;
+  transform: scale(0.98);
+}
+.Liste{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .Liste>ol>li{
   padding-bottom:20px;
