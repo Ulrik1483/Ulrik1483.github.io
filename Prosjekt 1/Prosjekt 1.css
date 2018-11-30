@@ -34,7 +34,7 @@ nav>a:hover{
   transition: 0.38s;
 }
 nav>a:active{
-  transform: scale(0.9);
+  transform: scale(0.92);
 }
 .banner{
   border-top: 44px solid rgba(0, 0, 0, 0.8);
