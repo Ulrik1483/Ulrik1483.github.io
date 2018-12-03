@@ -105,7 +105,7 @@ h2{
   padding-bottom: 80px;
   background-color: rgb(20, 20, 20);
 }
-.Album>div>img{
+.Album_bilde{
   width: 100%;
   transform: scale(0.7);
   margin-bottom: -50px;
