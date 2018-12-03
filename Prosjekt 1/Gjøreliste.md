@@ -1,7 +1,5 @@
 Gjørelsite:
 ######################################
--Lage logo til nettstedet
--Skrive intro til Powerwolf
 -Skrive intro til Amon Amarth
 -Skrive intro til Korpiklaani
 -Skrive Diskografi til Sabaton
