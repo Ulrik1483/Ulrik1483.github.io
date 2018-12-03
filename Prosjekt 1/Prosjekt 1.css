@@ -50,9 +50,21 @@ h1{
   filter: opacity(90%);
   padding: 18px;
 }
+h1>a{
+  padding-left: 5%;
+  color: rgb(127, 112, 96);
+}
 #Standard_img{
   width: 100%;
   margin-top:-39px;
+}
+.Index_artikkel_1{
+  background-color: rgb(41, 41, 41);
+  color: rgb(152, 150, 142);
+  font-size: 26px;
+  margin-top: -39px;
+  padding: 8px;
+  border-bottom: 3px solid rgb(127, 112, 96);
 }
 .Index_artikkel{
   background-color: rgb(41, 41, 41);
