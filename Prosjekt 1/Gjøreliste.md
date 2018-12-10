@@ -1,6 +1,5 @@
 Gjørelsite:
 ######################################
--Skrive introduserende tekst til nettstedet
 -Gi tilgang til Biografi og Diskografi via startsiden.
 -------------------------------------
 -------------------------------------
