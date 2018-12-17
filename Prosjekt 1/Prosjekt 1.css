@@ -130,7 +130,7 @@ h2{
   margin-bottom: -50px;
 }
 .Album_bilde:hover{
-  filter: drop-shadow(-1px -8px 15px rgb(152, 150, 142));
+  filter: drop-shadow(0px 0px 8px rgb(152, 150, 142));
   transform: scale(0.71);
 }
 .Album_artikkel{
