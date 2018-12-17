@@ -123,6 +123,9 @@ h2{
   transform: scale(0.7);
   margin-bottom: -50px;
 }
+.Album_bilde:active{
+  filter: contrast(1.05);
+}
 .Album_artikkel{
   font-size: 24px;
   font-weight: 900;
