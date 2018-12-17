@@ -58,6 +58,7 @@ h1>a{
 #Standard_img{
   width: 100%;
   margin-top:-39px;
+  border-bottom: 2px solid black;
 }
 .Index_artikkel_1{
   background-color: rgb(41, 41, 41);
@@ -66,6 +67,7 @@ h1>a{
   margin-top: -39px;
   padding: 8px;
   border-bottom: 3px solid rgb(127, 112, 96);
+  line-height: 38px;
 }
 .Index_artikkel{
   background-color: rgb(41, 41, 41);
@@ -74,6 +76,10 @@ h1>a{
   margin-top: -4px;
   padding: 8px;
   border-bottom: 3px solid rgb(127, 112, 96);
+  line-height: 38px;
+}
+.paragraf{
+  margin-bottom: 20px;
 }
 .Index_artikkel>a{
   text-decoration: none;
