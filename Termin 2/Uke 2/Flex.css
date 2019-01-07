@@ -1,0 +1,55 @@
+body{
+  background-color: magenta;
+}
+main{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  background-color: beige;
+}
+header{
+  background-color: beige;
+}
+header nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 4px black;
+}
+header nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+header nav a:last-child{
+  margin-left: auto;
+}
+.Hjelp{
+  width:100%;
+}
+@media (max-width:1200px) {
+  main{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width:900px) {
+  main{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width:600px) {
+  main{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  header nav{
+    flex-direction: column;
+    text-align: center;
+  }
+  header nav a:last-child{
+    margin: auto;
+  }
+}
