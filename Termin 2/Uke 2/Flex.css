@@ -22,8 +22,8 @@ header nav a{
   text-decoration: none;
   color: black;
   font-size: 22px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 header nav a:last-child{
   margin-left: auto;
