@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="no" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>User</title>
+    <link rel="stylesheet" href="User.css">
+  </head>
+  <body>
+    <h1>Fittekuk.info</h1>
+    <section>
+        <form id="skjema">
+            <input id="inpNavn" type="text" required placeholder="navn">
+            <input id="inpTelefon" type="text" required placeholder="telefon">
+            <input id="inpEpost" type="text" required placeholder="epost">
+            <input id="inpEpost" type="text" required placeholder="kommentar">
+            <button type="submit">Registrer kontakt</button>
+        </form>
+    </section>
+    <section id="secKontakter">
+    </section>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAjh3-5FEqEe-BbRap8aJzcDXbJAt9WrBI",
+        authDomain: "fittekuk-e760e.firebaseapp.com",
+        databaseURL: "https://fittekuk-e760e.firebaseio.com",
+        projectId: "fittekuk-e760e",
+        storageBucket: "fittekuk-e760e.appspot.com",
+        messagingSenderId: "1075370606661"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script>
+      const skjema = document.querySelector("#skjema");
+      const inpNavn = document.querySelector("#inpNavn");
+      const inpTelefon = document.querySelector("#inpTelefon");
+      const inpEpost = document.querySelector("#inpEpost");
+      const secKontakter = document.querySelector("#secKontakter");
+      // Firebase
+      const db = firebase.database();
+      const kontakter = db.ref("kontakter");
+      // Registrere en ny kontakt
+      function registrerKontakt(evt) {
+          evt.preventDefault();
+          const key = inpTelefon.value;
+          const data = {
+              navn: inpNavn.value,
+              epost: inpEpost.value
+          };
+          const kontakt = kontakter.child(key);
+          kontakt.set(data);
+
+          // Nuller ut skjemaet
+          skjema.reset();
+      }
+      // Knytter funksjonen til hendelsen at skjemaet blir sendt inn
+      skjema.addEventListener("submit", registrerKontakt);
+
+
+      // Funksjone som viser frem en kontakt
+      // snap er et snapshot av dataene til kontakten i det øyeblikket den blir lagt til
+      function visKontakt(snap) {
+          const telefon = snap.key; // Primær-nøkkelen
+          const kontakt = snap.val(); // Dataene til kontakten
+          secKontakter.innerHTML += `
+          <div class="kontaktinf">
+              <div>${kontakt.navn}</div>
+              <div>${telefon}</div>
+              <div>${kontakt.epost}</div>
+          </div>
+          `;
+      }
+      // Knytter funksjonen til hendelsen at skjemaet blir sendt inn
+      skjema.addEventListener("submit", registrerKontakt);
+      // Starter funksjonen når det blir lagt til en kontakt
+      kontakter.on("child_added", visKontakt);
+    </script>
+  </body>
+</html>

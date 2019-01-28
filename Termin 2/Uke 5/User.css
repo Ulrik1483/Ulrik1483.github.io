@@ -1,0 +1,26 @@
+#skjema{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 80%;
+}
+button{
+  margin-top: 2px;
+  grid-column: 1/2;
+  width: 75%;
+}
+h1{
+  font-size: 40px;
+  margin-bottom: -2px;
+}
+div{
+  font-size: 20px;
+  border-bottom: 1px solid olive;
+  height: 40px;
+}
+.kontaktinf{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.kontaktinf:nth-child(even){
+  background-color: beige;
+}
