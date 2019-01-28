@@ -6,7 +6,7 @@
   "misliker": ["rosiner", "orangotanger", "Jeremias"],
   "religion":{
     "overreligion":"kristendom",
-    "underkult":"gresk ortodoks"
+    "underkult":"gresk ortodoks",
   },
   "hund":false,
 }

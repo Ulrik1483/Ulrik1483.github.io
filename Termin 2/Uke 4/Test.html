@@ -32,5 +32,24 @@
       dbRef.on("value", snap => bigTwo.innerText = snap.val());
     </script>
 
+    <script>
+      const db = firebase.database();
+      const kontaktliste = db.ref("kontaktliste");
+      const Suzkalski = kontaktliste.child("User 1");
+      Suzkalski.set({
+        "navn":"Ulrik Sørgaard Djupvik",
+        "adresse": "Hvalstadlia 44",
+        "fødselsdato":"13.12.2001",
+        "favoritt farge på mennesker":"lilla",
+        "misliker": ["rosiner", "orangotanger", "Jeremias"],
+        "religion":{
+          "overreligion":"kristendom",
+          "underkult":"gresk ortodoks",
+        },
+        "hund":false,
+      })
+    </script>
+
+
   </body>
 </html>
