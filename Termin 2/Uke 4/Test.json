@@ -1,12 +1,14 @@
 {
-  "navn":"Ulrik Sørgaard Djupvik",
-  "adresse": "Hvalstadlia 44",
-  "fødselsdato":"13.12.2001",
-  "favoritt farge på mennesker":"lilla",
-  "misliker": ["rosiner", "orangotanger", "Jeremias"],
-  "religion":{
-    "overreligion":"kristendom",
-    "underkult":"gresk ortodoks",
-  },
-  "hund":false,
+  "Ting": {
+    "navn":"Ulrik Sørgaard Djupvik",
+    "adresse": "Hvalstadlia 44",
+    "fødselsdato":"13.12.2001",
+    "favoritt farge på mennesker":"lilla",
+    "misliker": ["rosiner", "orangotanger", "Jeremias"],
+    "religion":{
+      "overreligion":"kristendom",
+      "underkult":"gresk ortodoks",
+      },
+      "hund":false,
+  }
 }
