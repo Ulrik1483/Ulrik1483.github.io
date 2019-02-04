@@ -12,7 +12,7 @@
             <input id="inpNavn" type="text" required placeholder="navn">
             <input id="inpTelefon" type="text" required placeholder="telefon">
             <input id="inpEpost" type="text" required placeholder="epost">
-            <input id="inpEpost" type="text" required placeholder="kommentar">
+            <input id="inpKommentar" type="text" required placeholder="kommentar">
             <button type="submit">Registrer kontakt</button>
         </form>
     </section>
@@ -31,12 +31,11 @@
         messagingSenderId: "1075370606661"
       };
       firebase.initializeApp(config);
-    </script>
-    <script>
       const skjema = document.querySelector("#skjema");
       const inpNavn = document.querySelector("#inpNavn");
       const inpTelefon = document.querySelector("#inpTelefon");
       const inpEpost = document.querySelector("#inpEpost");
+      const inpKommentar = document.querySelector("#inpKommentar")
       const secKontakter = document.querySelector("#secKontakter");
       // Firebase
       const db = firebase.database();
@@ -47,7 +46,8 @@
           const key = inpTelefon.value;
           const data = {
               navn: inpNavn.value,
-              epost: inpEpost.value
+              epost: inpEpost.value,
+              kommentar: inpKommentar.value
           };
           const kontakt = kontakter.child(key);
           kontakt.set(data);
@@ -69,6 +69,7 @@
               <div>${kontakt.navn}</div>
               <div>${telefon}</div>
               <div>${kontakt.epost}</div>
+              <div>${kontakt.kommentar}</div>
           </div>
           `;
       }
