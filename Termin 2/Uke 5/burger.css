@@ -1,0 +1,43 @@
+@keyframes fallNed {
+  from{transform:translateY(0)scale(1.6)rotate(45deg);}
+  to{transform:translateY(400px)scale(1)rotate(0deg);}
+}
+#burger{
+  overflow: hidden;
+  width: 500px;
+  height: 350px;
+  background-color: #cfd7c6;
+  position: relative;
+  margin: 20px auto;
+}
+#burger>img{position:absolute;}
+#bunn{
+  left:175px;
+  top:-100px;
+  animation: fallNed 2s 0s forwards;
+}
+#salat{
+  left:180px;
+  top:-115px;
+  animation: fallNed 2s 0.3s forwards;
+}
+#karbonade{
+  left:166px;
+  top:-121px;
+  animation: fallNed 2s 0.6s forwards;
+}
+#ost{
+  left:178px;
+  top:-132px;
+  animation: fallNed 2s 0.9s forwards;
+}
+#ketsjup{
+  left:168px;
+  top:-145px;
+  animation: fallNed 2s 1.2s forwards;
+}
+#topp{
+  left:175px;
+  top:-190px;
+  animation: fallNed 2s 1.5s forwards;
+}
