@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="no" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Handel</title>
+    <link rel="stylesheet" href="Handel.css">
+  </head>
+  <body>
+    <header>
+      <img class="Basd" src="Bilder/Background_2.png">
+      <nav>
+          <button onclick="visKråker()">Kråker</button>
+          <button onclick="visBilligeKråker()">Billige kråker</button>
+          <button onclick="visKråkeboller()">Kråkeboller</button>
+          <button onclick="visAlfabetiskeKråkeboller()">Alfabetiske kråkeboller</button>
+          <button onclick="visBoller()">Boller</button>
+          <button onclick="visLite()">Vil ikke ha</button>
+      </nav>
+    </header>
+    <main></main>
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAjh3-5FEqEe-BbRap8aJzcDXbJAt9WrBI",
+        authDomain: "fittekuk-e760e.firebaseapp.com",
+        databaseURL: "https://fittekuk-e760e.firebaseio.com",
+        projectId: "fittekuk-e760e",
+        storageBucket: "fittekuk-e760e.appspot.com",
+        messagingSenderId: "1075370606661"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script>
+      let database = firebase.database();
+      let kråker = database.ref("varer/kråker");
+      let kråkeboller = database.ref("varer/kråkeboller");
+      let boller = database.ref("varer/boller");
+      let huff = database.ref("varer/huff");
+      let main = document.querySelector("main");
+      function visVare(snapshot) {
+          let vare = snapshot.val();
+          main.innerHTML += `
+              <article>
+                <h1>${vare.navn}</h1>
+                <p>${vare.pris} NOK</p>
+                <img src="bilder/${vare.bilde}">
+              </article>
+        `;
+      }
+      visAlleVarer();
+      function visKråker() {
+          main.innerHTML = " ";
+          kråker.on("child_added", visVare);
+      }
+      function visBilligeKråker() {
+          main.innerHTML = "  ";
+            kråker
+              .orderByChild("pris")
+              .startAt(0)
+              .endAt(3000)
+              .on("child_added", visVare);
+      }
+      function visKråkeboller() {
+          main.innerHTML = " ";
+          kråkeboller.on("child_added", visVare);
+      }
+      function visAlfabetiskeKråkeboller() {
+        main.innerHTML = "  ";
+        kråkeboller
+              .orderByChild("navn")
+              .on("child_added", visVare);
+      }
+      function visBoller() {
+          main.innerHTML = "  ";
+          boller.on("child_added", visVare);
+
+      }
+      function visLite() {
+          main.innerHTML =" ";
+          huff.on("child_added", visVare);
+      }
+    </script>
+  </body>
+</html>

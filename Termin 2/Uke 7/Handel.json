@@ -1,0 +1,87 @@
+{
+  "varer" : {
+    "kråker" : {
+      "kråke001" : {
+        "navn" : "Petter",
+        "pris" : 2500,
+        "bilde" : "Kråke001.jpg"
+      },
+      "kråke002" : {
+        "navn" : "Nils",
+        "pris" : 2240,
+        "bilde" : "Kråke002.jpg"
+      },
+      "kråke003" : {
+        "navn" : "Gregor",
+        "pris" : 3200,
+        "bilde" : "Kråke003.jpg"
+      },
+      "kråke004" : {
+        "navn" : "Fabian",
+        "pris" : 200,
+        "bilde" : "Kråke004.jpg"
+      },
+      "kråke005" : {
+        "navn" : "Leonard",
+        "pris" : 8500,
+        "bilde" : "Kråke005.jpg"
+      }
+    },
+      "kråkeboller" : {
+        "kråkebolle001" : {
+          "navn" : "Rudolf",
+          "pris" : 800,
+          "bilde" : "Kråkebolle001.jpg"
+        },
+        "kråkebolle002" : {
+          "navn" : "Svein",
+          "pris" : 1300,
+          "bilde" : "Kråkebolle002.jpg"
+        },
+        "kråkebolle003" : {
+          "navn" : "Kurt-Nils",
+          "pris" : 1200,
+          "bilde" : "Kråkebolle003.jpg"
+        },
+        "kråkebolle004" : {
+          "navn" : "Kevin",
+          "pris" : 3800,
+          "bilde" : "Kråkebolle004.jpg"
+        }
+      },
+      "huff" : {
+        "huff001" : {
+          "navn" : "Heng deg selv",
+          "pris" : "Du har ingen verdi, 0",
+          "bilde" : "huff001.jpg"
+        }
+      },
+      "boller" : {
+        "bolle001" : {
+          "navn" : "Svinebolle",
+          "pris" : 30,
+          "bilde" : "Boller001.jpg"
+      },
+        "bolle002" : {
+          "navn" : "Vegetarbolle",
+          "pris" : 28,
+          "bilde" : "Boller002.jpg"
+      },
+        "bolle003" : {
+          "navn" : "Videregående bolle",
+          "pris" : 32,
+          "bilde" : "Boller003.jpg"
+      },
+        "bolle004" : {
+          "navn" : "Kukbolle",
+          "pris" : 200,
+          "bilde" : "Boller004.jpg"
+      },
+        "bolle005" : {
+          "navn" : "Bilde av en bolle",
+          "pris" : 12,
+          "bilde" : "Boller005.jpg"
+      }
+    }
+  }
+}
