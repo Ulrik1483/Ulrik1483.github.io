@@ -65,6 +65,7 @@
               .orderByChild("pris")
               .startAt(0)
               .endAt(3000)
+              .limitToFirst(3)
               .on("child_added", visVare);
       }
       function visKråkeboller() {
