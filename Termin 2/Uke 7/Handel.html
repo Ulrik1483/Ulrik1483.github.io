@@ -76,6 +76,8 @@
         main.innerHTML = "  ";
         kråkeboller
               .orderByChild("navn")
+              .startAt("A")
+              .endAt("Z")
               .on("child_added", visVare);
       }
       function visBoller() {
@@ -84,7 +86,7 @@
 
       }
       function visLite() {
-          main.innerHTML =" ";
+          main.innerHTML = " ";
           huff.on("child_added", visVare);
       }
     </script>
