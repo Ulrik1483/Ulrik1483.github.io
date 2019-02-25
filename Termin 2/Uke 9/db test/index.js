@@ -1,17 +1,25 @@
+//HTML-elementer
+const main = document.querySelector("main");
+
 //Database
 const db = firebase.database();
-const prosjekter = db.ref("Prosjekt/prosjekter")
+const prosjekter = db.ref("portfolio/prosjekter")
 
 
 //Legger innhold til main
-  function visProsjekt(snapshot) {
-    const key = snap(key);
+  function visProsjekt(snap) {
+    const key = snap.key;
     const prosjekt = snap.val();
 
+    const bilder = prosjekt.bilder;
+    const index = prosjekt.forsidebilde;
+
     main.innerHTML +=`
-    <article>
-      <h1>${prosjekter.tittel}</h1>
-    </article>
+      <article style="background-image: url('${bilder[index]}')">
+        <h1>${prosjekt.tittel}</h1>
+        <p>${prosjekt.beskrivelse}</p>
+        <a href="prosjekt.html?pid=${key}">Les mer</a>
+      </article>
     `;
 }
 

@@ -1,0 +1,17 @@
+html{
+  font-size: 100%;
+}
+body{
+  background-color: beige;
+  font-family: sans-serif;
+}
+main{
+  padding-top: 4rem;
+  max-width: 970px;
+  margin: auto;
+}
+main article{
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
