@@ -2,25 +2,36 @@ body{
   background-color: beige;
   margin-left: 2%;
 }
-img{
-  width:60%;
+.SubImage{
+  width: 60%;
   height: 40%;
   border: 1px solid black;
 }
-.Basd{
-  width:100%;
+.WebBanner{
+  width: 60%;
+}
+nav{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-right: 40%;
 }
 button{
-  background-color: brown;
+  background-color: #80af89;
   border: none;
   border-radius: 2px;
   color: white;
   display: inline-block;
-  font-size: 18px;
+  font-family: serif;
+  font-size: 14px;
+  padding-left: 1.1%;
+  padding-right: 1.1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   cursor: pointer;
+  margin: 1%;
 }
 button:hover{
-  background-color: black;
+  background-color: #384042;
   transition: 0.4s;
 }
 h1{
@@ -28,10 +39,21 @@ h1{
   margin-bottom: -16px;
 }
 p{
-  font-size: 20px;
+  padding-top: 15px;
+  font-size: 16px;
 }
 @media (max-width:1000px) {
   button{
     font-size: 10px;
+    padding:1%;
+  }
+  nav{
+    margin-right: 20%;
+  }
+  .SubImage{
+    width: 80%;
+  }
+  .WebBanner{
+    width: 80%;
   }
 }

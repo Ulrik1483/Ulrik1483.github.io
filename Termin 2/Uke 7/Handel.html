@@ -2,13 +2,14 @@
 <html lang="no" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Handel</title>
+    <title>Kråk&boller</title>
     <link rel="stylesheet" href="Handel.css">
   </head>
   <body>
     <header>
-      <img class="Basd" src="Bilder/Background_2.png">
+      <img class="WebBanner" src="Bilder/Background_3.png">
       <nav>
+          <button onclick="visKråkOgBoller()">Kråk&boller</button>
           <button onclick="visKråker()">Kråker</button>
           <button onclick="visBilligeKråker()">Billige kråker</button>
           <button onclick="visKråkeboller()">Kråkeboller</button>
@@ -44,11 +45,16 @@
               <article>
                 <h1>${vare.navn}</h1>
                 <p>${vare.pris} NOK</p>
-                <img src="bilder/${vare.bilde}">
+                <img class="SubImage" src="bilder/${vare.bilde}">
               </article>
         `;
       }
-      visAlleVarer();
+      function visKråkOgBoller() {
+          main.innerHTML = " ";
+          kråker.on("child_added", visVare);
+          kråkeboller.on("child_added", visVare);
+          boller.on("child_added", visVare);
+      }
       function visKråker() {
           main.innerHTML = " ";
           kråker.on("child_added", visVare);
