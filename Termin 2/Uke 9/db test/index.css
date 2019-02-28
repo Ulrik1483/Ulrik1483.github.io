@@ -28,17 +28,17 @@ main article a{
   color: white;
   margin: auto;
   padding: 1rem;
-  transform: translateX(-220%);
-  transition: 1s;
+  transform: translateX(-200%) scale(0.1);
+  transition: 0.8s;
 }
 main article:hover a{
-  transform: skewX(0);
+  transform: none;
 }
 main article h1{
-  background-color: white;
+  background-color: beige;
 }
 main article p{
-  background-color: white;
+  background-color: beige;
   margin:auto;
   padding: 0.5rem;
 }
