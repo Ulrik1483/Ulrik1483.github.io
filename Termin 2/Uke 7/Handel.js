@@ -10,7 +10,7 @@ function visVare(snapshot) {
         <article>
           <h1>${vare.navn}</h1>
           <p>${vare.pris} NOK</p>
-          <img class="SubImage" src="bilder/${vare.bilde}">
+          <img class="SubImage" src="Bilder/${vare.bilde}">
         </article>
   `;
 }
