@@ -1,0 +1,12 @@
+{
+  "primærnøkkel01":{
+    "egenskap01":"verdi01",
+    "egenskap02":"verdi02",
+    "egenskap03":"verdi03"
+  },
+  "primærnøkkel02":{
+    "egenskap01":"verdi01",
+    "egenskap02":"verdi02",
+    "egenskap03":"verdi03"
+  }
+}

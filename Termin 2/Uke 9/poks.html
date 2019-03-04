@@ -31,9 +31,8 @@
         <button onclick="location.href='chat.html'">Chat</button>
       </nav>
     </header>
-    <main>
-
-    </main>
+    
+    <main></main>
 
     <script>
         const main = document.querySelector("main"); // Variabel som referer til mian-elementet
@@ -70,6 +69,11 @@
           .equalTo("Water")
           .on("child_added",visPokemon)
         }
+        function visAtilF(){
+          main.innerHTML = ``
+          pokemon.orderByChild("Name").startAt("A").endAt("E").on("child_added", visPokemon);
+        }
+        visAlle();
     </script>
 
   </body>

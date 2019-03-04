@@ -1,0 +1,78 @@
+html{
+  font-size: 100%;
+}
+body{
+  background-color: beige;
+  font-family: sans-serif;
+}
+header nav{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 1rem;
+}
+header nav button{
+  background-color: #80af89;
+  color: beige;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+header nav button:hover{
+  filter:sepia(20%);
+}
+header nav button:active{
+  transform: scale(1.05);
+}
+.Dyr{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-top: solid black 1px;
+  overflow: hidden;
+}
+.Dyr:hover p{
+  transform: none;
+}
+.poster{
+  width: 100%;
+  grid-column: : 2;
+  padding: 1rem;
+}
+main article h1{
+  text-align: center;
+  margin: auto;
+}
+main article p{
+  text-align: center;
+  margin: auto;
+  transition: 1s;
+  padding: 1rem;
+  background-color: #80af89;
+  color: beige;
+}
+.alder{
+  margin-left:-10%;
+  transform: translateY(800%);
+}
+.farge{
+  transform: translateY(-800%);
+}
+@media (max-width:1200px) {
+  .Dyr{
+    grid-template-columns: repeat(4, 1fr);
+  }
+  html{
+    font-size: 90%;
+  }
+  main article p{
+    padding:0.8rem;
+  }
+}
+@media (max-width:600px) {
+  html{
+    font-size: 80%;
+  }
+  main article p{
+    padding:0.5rem;
+  }
+}
