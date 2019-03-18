@@ -1,13 +1,28 @@
-"use strict"
+
 //Database-Elementer
-let database = firebase.database();
+  const database = firebase.database();
+  const rabatter = database.ref("Dyrebakken/rabatt")
+  const varer = database.ref("Dyrebakken/Varer")
 
 //HTML-Elementer
-let main = document.querySelector("main");
+  const main = document.querySelector("main");
 
-//HTML-funksjoner
-function visProdukter(snap){
+//Legger innhold til main
+  function visVare(snap) {
+    const key = snap.key;
+    const vare = snap.val();
 
+    const bilder = vare.bilder;
+    const index = Math.floor(Math.random() * 5);
+
+    main.innerHTML +=`
+      <article>
+        <h1>${vare.Navn}</h1>
+        <img src="${vare.Bilder[index]}">
+        <p>(${vare.Pris}*${rabatter[index]}) NOK</p>
+      </article>
+    `;
 }
 
 //Event-Listeners
+varer.on("child_added", visVare)
