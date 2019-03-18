@@ -1,8 +1,8 @@
 
 //Database-Elementer
   const database = firebase.database();
-  const rabatter = database.ref("Dyrebakken/Rabatter")
-  const varer = database.ref("Dyrebakken/Varer")
+  const rabatter = database.ref("Dyrebakken/Rabatter");
+  const varer = database.ref("Dyrebakken/Varer");
 
 //HTML-Elementer
   const main = document.querySelector("main");
@@ -14,12 +14,12 @@
 
     const bilder = vare.bilder;
     const index = Math.floor(Math.random() * 5);
-    const pris = `${vare.Pris}`*`${rabatter[0]}`;
+    const pris = `${vare.Pris}`;
 
     main.innerHTML +=`
-      <article>
+      <article class="productArticle">
         <h1>${vare.Navn}</h1>
-        <img src="${vare.Bilder[index]}">
+        <img class="productImage" src="${vare.Bilder[index]}">
         <p>${pris} NOK</p>
       </article>
     `;
