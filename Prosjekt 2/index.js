@@ -14,13 +14,15 @@
 
     const bilder = vare.bilder;
     const index = Math.floor(Math.random() * 5);
-    const pris = `${vare.Pris}`;
+    const rabatt = Math.floor(Math.random() * 50)/100;
+    const rabattIProsent = (1-rabatt)*100
+    const pris = `${vare.Pris}`*rabatt;
 
     main.innerHTML +=`
       <article class="productArticle">
         <h1>${vare.Navn}</h1>
         <img class="productImage" src="${vare.Bilder[index]}">
-        <p>${pris} NOK</p>
+        <p>${pris} NOK, det er en ${rabattIProsent}% rabatt</p>
       </article>
     `;
 }
