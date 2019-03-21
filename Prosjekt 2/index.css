@@ -25,6 +25,7 @@ html{
 }
 .productImage{
   width:100%;
+  border: 1px solid black;
 }
 .productMain{
   transform: scale(0.8);

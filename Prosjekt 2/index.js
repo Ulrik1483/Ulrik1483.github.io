@@ -14,7 +14,7 @@
 
     const bilder = vare.bilder;
     const index = Math.floor(Math.random() * 5);
-    const rabatt = Math.floor(Math.random() * 50)/100;
+    const rabatt = Math.floor(Math.random() * 16)/20;
     const rabattIProsent = (1-rabatt)*100
     const pris = `${vare.Pris}`*rabatt;
 
