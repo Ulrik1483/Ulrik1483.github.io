@@ -38,12 +38,14 @@
 
       function genererHTML(snapshot){
         let dyr = snapshot.val();
+        let key = snapshot.key;
         main.innerHTML +=`
             <article class="Dyr">
               <h1>${dyr.Navn}</h1>
               <img src="${dyr.Bilde}" class="poster">
               <p class="farge">Farge: ${dyr.Farge1}, ${dyr.Farge2}</p>
               <p class="alder">Alder: ${dyr.Alder}</p>
+              <a href="dyredetaljer.html?id=${key}">Les mer</a>
             </article>
         `
       }

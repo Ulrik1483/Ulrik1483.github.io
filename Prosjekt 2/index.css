@@ -32,7 +32,12 @@ html{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-
+.productArticle{
+  padding: 2rem;
+}
+.strikeThrough{
+  text-decoration: line-through;
+}
 
 
 @media (max-width: 1200px) {
