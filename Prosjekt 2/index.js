@@ -12,9 +12,10 @@
     const vare = snap.val();
 
     const index = Math.floor(Math.random() * 5);
-    const rabatt = (1-Math.floor(Math.random() * 15)/20);
+    const rabatt = 1-(Math.floor(Math.random() * 15)/20);
     const orginalPris = `${vare.Pris}`
-    const pris = `${vare.Pris}`*rabatt;
+    const prisDecider = `${vare.Pris}`*rabatt;
+    const pris = Math.round(prisDecider);
 
     main.innerHTML +=`
       <article class="productArticle">
