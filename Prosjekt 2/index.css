@@ -4,15 +4,15 @@ html{
 .indexNav{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
-  border-bottom: 4px solid black;
+  border-bottom: 2px solid black;
   margin-top: -4px;
 }
 .indexNav a{
   text-align: center;
   text-decoration: none;
   color: black;
-  font-size: 32px;
-  padding: 2rem;
+  font-size: 24px;
+  padding: 1rem;
   background-color: beige;
   transition: 0.5s;
   font-family: 'Roboto Slab', serif;

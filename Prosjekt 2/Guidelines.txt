@@ -1,2 +1,2 @@
-Banner ratio: 4:1
+Banner ratio: 8:1
 Produkt bilder: 1:1

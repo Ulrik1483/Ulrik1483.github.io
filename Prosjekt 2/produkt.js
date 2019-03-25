@@ -1,16 +1,20 @@
-
-//Database-Elementer
-  const database = firebase.database();
-  const varer = database.ref("Dyrebakken/Varer");
-
-//HTML-Elementer
+//HTML-elementer
   const main = document.querySelector("main");
+
+//URL-parameter
+  var url_string = window.location.href
+  var url = new URL(url_string);
+  var id = url.searchParams.get("id");
+
+//Database-elementer
+  const database = firebase.database();
+  const varer = database.ref("Dyrebakken/Varer/" + id);
 
 //Legger innhold til main
   function visVare(snap) {
-    const key = snap.key;
     const vare = snap.val();
 
+    const bilder = vare.bilder;
     const index = Math.floor(Math.random() * 5);
     const rabatt = 1-Math.floor(Math.random() * 15)/20;
     const rabattIProsent = (1-rabatt)*100
@@ -21,10 +25,9 @@
         <h1>${vare.Navn}</h1>
         <img class="productImage" src="${vare.Bilder[index]}">
         <p>${pris} NOK, det er en ${rabattIProsent}% rabatt</p>
-        <a href="produkt.html?id=${key}">Kjøp</a>
       </article>
-    `;
-}
+      `;
+  }
 
-//Event-Listeners
-varer.on("child_added", visVare)
+//Event Listener
+  varer.on("value", visVare);
