@@ -17,16 +17,24 @@
     const prisDecider = `${vare.Pris}`*rabatt;
     const pris = Math.round(prisDecider);
 
+
+    //Ignorer produkter uten rabatt
+    if (orginalPris == pris){
+      orginalPris = "";
+    }
+
+
     main.innerHTML +=`
       <article class="productArticle">
         <h1>${vare.Navn}</h1>
         <img class="productImage" src="${vare.Bilder[index]}">
         <p class="strikeThrough">${orginalPris}</p>
-        <p>${pris} NOK</p>
-        <a href="produkt.html?id=${key}">Kjøp</a>
+        <p class="nyPris">${pris} NOK</p>
+        <a class="productGate" href="produkt.html?id=${key}">Se mer</a>
       </article>
     `;
 }
 
+
 //Event-Listeners
-varer.on("child_added", visVare)
+varer.limitToFirst(6).on("child_added", visVare)
