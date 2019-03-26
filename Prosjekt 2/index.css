@@ -1,13 +1,13 @@
 html{
   font-size: 100%;
 }
-.indexNav{
+nav{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   border-bottom: 2px solid black;
   margin-top: -4px;
 }
-.indexNav a{
+nav a{
   text-align: center;
   text-decoration: none;
   color: black;
@@ -17,7 +17,7 @@ html{
   transition: 0.5s;
   font-family: 'Roboto Slab', serif;
 }
-.indexNav a:hover{
+nav a:hover{
   background-color: white;
 }
 .webBanner{
@@ -31,12 +31,12 @@ html{
   background-color: rgb(200, 150, 200);
   font-family: 'Roboto Slab', serif;
 }
-.productImage{
+.productArticle img{
   width:100%;
   border: 1px solid black;
   background-color: beige;
 }
-.productMain{
+main{
   transform: scale(0.8);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -54,7 +54,7 @@ html{
   font-size: 18px;
   margin-top: -0.8rem;
 }
-.productGate{
+.productArticle a{
   text-decoration: none;
   border: solid 1px black;
   padding: 8px 20px 8px 20px;

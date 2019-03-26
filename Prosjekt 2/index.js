@@ -18,19 +18,19 @@
     const pris = Math.round(prisDecider);
 
 
-    //Ignorer produkter uten rabatt
-    if (orginalPris == pris){
-      orginalPris = "";
-    }
+//Ignorer produkter uten rabatt
+  if (orginalPris == pris){
+    orginalPris = "";
+  }
 
 
     main.innerHTML +=`
       <article class="productArticle">
         <h1>${vare.Navn}</h1>
-        <img class="productImage" src="${vare.Bilder[index]}">
+        <img src="${vare.Bilder[index]}">
         <p class="strikeThrough">${orginalPris}</p>
         <p class="nyPris">${pris} NOK</p>
-        <a class="productGate" href="produkt.html?id=${key}">Se mer</a>
+        <a href="produkt.html?id=${key}">Se mer</a>
       </article>
     `;
 }
