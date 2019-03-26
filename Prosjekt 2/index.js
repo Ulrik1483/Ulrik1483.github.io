@@ -4,7 +4,7 @@
   const varer = database.ref("Dyrebakken/Varer");
 
 //HTML-Elementer
-  const main = document.querySelector("main");
+  const display = document.querySelector(".display");
 
 //Legger innhold til main
   function visVare(snap) {
@@ -24,14 +24,14 @@
   }
 
 
-    main.innerHTML +=`
-      <article class="productArticle">
+    display.innerHTML +=`
+      <section class="productSection">
         <h1>${vare.Navn}</h1>
         <img src="${vare.Bilder[index]}">
-        <p class="strikeThrough">${orginalPris}</p>
+        <section><p class="strikeThrough">${orginalPris}</p></section>
         <p class="nyPris">${pris} NOK</p>
         <a href="produkt.html?id=${key}">Se mer</a>
-      </article>
+      </section>
     `;
 }
 
