@@ -11,7 +11,7 @@
     const key = snap.key;
     const vare = snap.val();
 
-    const index = Math.floor(Math.random() * 5);
+    const index = 4;                                           // Random - Math.floor(Math.random() * 5);
     const rabatt = 1-(Math.floor(Math.random() * 15)/20);
     const orginalPris = `${vare.Pris}`
     const prisDecider = `${vare.Pris}`*rabatt;
