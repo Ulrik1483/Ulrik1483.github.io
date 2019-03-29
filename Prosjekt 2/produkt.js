@@ -1,5 +1,5 @@
 //HTML-elementer
-  const main = document.querySelector("main");
+  const overview = document.querySelector(".overview");
 
 //URL-parameter
   var url_string = window.location.href
@@ -15,18 +15,20 @@
     const vare = snap.val();
 
     const bilder = vare.bilder;
-    const index = Math.floor(Math.random() * 5);
+    const index = 4;
+
+
     const rabatt = 1-Math.floor(Math.random() * 15)/20;
     const orginalPris = `${vare.Pris}`;
     const pris = `${vare.Pris}`*rabatt;
 
-    main.innerHTML +=`
-      <article class="productArticle">
+    overview.innerHTML +=`
+      <section class="productSection">
         <h1>${vare.Navn}</h1>
         <img class="productImage" src="${vare.Bilder[index]}">
         <p class="strikeThrough">${orginalPris}</p>
         <p>${pris} NOK</p>
-      </article>
+      </section>
       `;
   }
 

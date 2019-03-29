@@ -1,6 +1,17 @@
 html{
   font-size: 100%;
 }
+body{
+  background-image:
+    linear-gradient(
+      darkblue, lightblue
+    );
+}
+main{
+  margin-left: 16rem;
+  margin-right: 16rem;
+  background-color: white;
+}
 nav{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
@@ -27,12 +38,16 @@ nav a:hover{
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: -10rem;
   font-size: 24px;
-  background-color: rgb(200, 150, 200);
+  background-color: beige;
   font-family: 'Roboto Slab', serif;
+  padding-left: 16rem;
+  padding-right: 16rem;
 }
 .productSection img{
-  width:100%;
+  width: 100%;
   border: 1px solid black;
   background-color: beige;
 }
@@ -66,6 +81,16 @@ nav a:hover{
   color: black;
   background-color: gold;
   font-size: 22px;
+}
+
+
+/*produkt.html spesefike ting*/
+.dualDisplay{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.overview{
+
 }
 
 
