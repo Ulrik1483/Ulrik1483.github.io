@@ -28,8 +28,8 @@
       <section class="productSection">
         <h1>${vare.Navn}</h1>
         <img src="${vare.Bilder[index]}">
-        <p class="strikeThrough">${orginalPris}</p>
-        <p class="nyPris">${pris} NOK</p>
+        <p class="strikeThrough">Før ${orginalPris},-</p>
+        <p class="nyPris">${pris},-</p>
         <a href="produkt.html?id=${key}">Se mer</a>
       </section>
     `;
