@@ -57,7 +57,7 @@ nav a:hover{
   grid-template-columns: repeat(3, 1fr);
   margin-top: -4rem;
   padding-bottom: 10rem;
-  background-color: rgb(240, 250, 240);
+  background-color: rgb(250, 250, 250);
 }
 .productSection{
   padding: 2rem;
@@ -77,6 +77,7 @@ nav a:hover{
 .nyPris{
   font-size: 24px;
   margin-top: -0.8rem;
+  font-weight: bold;
 }
 .productSection a{
   text-decoration: none;
@@ -87,6 +88,9 @@ nav a:hover{
   color: black;
   background-color: gold;
   font-size: 28px;
+}
+.test{
+
 }
 
 
@@ -113,6 +117,7 @@ nav a:hover{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 1rem;
+  margin-top: 2rem;
 }
 .bilderad img{
   width: 100%;
@@ -125,7 +130,18 @@ nav a:hover{
   grid-template-rows: 1fr, 4fr;
 }
 .overviewRight{
-
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+  background-color: rgb(250, 250, 250);
+  margin: auto;
+  margin-right: 16rem;
+  padding: 5rem;
+}
+.purchaseButton{
+  background-color: gold;
+  padding: 1vh;
+  font-size: 22px;
+  margin-top: 2vh;
 }
 
 

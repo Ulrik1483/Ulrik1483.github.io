@@ -33,9 +33,11 @@
     bilderad += `</div>`;
 
 
-    const rabatt = 1-Math.floor(Math.random() * 15)/20;
-    const orginalPris = `${vare.Pris}`;
-    const pris = `${vare.Pris}`*rabatt;
+    let rabatt = 1-(Math.floor(Math.random() * 15)/20);
+    let orginalPris = `${vare.Pris}`
+    let prisDecider = `${vare.Pris}`*rabatt;
+    let pris = Math.round(prisDecider);
+
 
     const varenummer = Math.floor(Math.random() * 100000);
 
@@ -48,10 +50,23 @@
     overviewRight.innerHTML +=`
       <section>
         <p class="strikeThrough">Før ${orginalPris},-</p>
-        <p>${pris},-</p>
+        <p class="nyPris">${pris},-</p>
         ${bilderad}
+        <div> <button class="purchaseButton">Legg til handlekurv</button> </div>
       </section>
     `;
+
+    // Dersom det ikke er noen forskjell mellom gammel og ny pris skal den gamle prisen ikke vises
+    if (orginalPris == pris){
+      overviewRight.innerHTML = "";
+      overviewRight.innerHTML +=`
+        <section>
+          <p class="nyPris">${pris},-</p>
+          ${bilderad}
+          <div> <button class="purchaseButton">Legg til handlekurv</button> </div>
+        </section>
+      `;
+    }
   }
 
 //Event Listener
