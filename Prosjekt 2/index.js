@@ -11,16 +11,15 @@
     const key = snap.key;
     const vare = snap.val();
 
-    const index = 4;                                           // Tilfeldig farge er teit - Math.floor(Math.random() * 5);
-    const rabatt = 1-(Math.floor(Math.random() * 15)/20);
-    const orginalPris = `${vare.Pris}`
-    const prisDecider = `${vare.Pris}`*rabatt;
-    const pris = Math.round(prisDecider);
+    let index = 4;                                           // Tilfeldig farge er teit - Math.floor(Math.random() * 5);
+    let rabatt = 1-(Math.floor(Math.random() * 15)/20);
+    let orginalPris = `${vare.Pris}`
+    let prisDecider = `${vare.Pris}`*rabatt;
+    let pris = Math.round(prisDecider);
 
 
-//Ignorer produkter uten rabatt ved å prøve å forandre en konstant
   if (orginalPris == pris){
-    orginalPris = "";
+    pris *= 0.9;
   }
 
 

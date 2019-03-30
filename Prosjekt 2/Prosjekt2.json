@@ -48,6 +48,20 @@
       "Navn" : "Panda",
       "Pris" : 5200,
       "Type" : "Dyr"
+    },
+    "Pisk" : {
+      "Beskrivelse" : "Pisker er kult da",
+      "Bilder" : [ "Bilder/Pisk - Blå.png", "Bilder/Pisk - Rød.png", "Bilder/Pisk - Grønn.png", "Bilder/Pisk - Lilla.png", "Bilder/Pisk - Standard.png" ],
+      "Navn" : "Pisk",
+      "Pris" : 600,
+      "Type" : "Ting"
+    },
+    "Isbjørn" : {
+      "Beskrivelse" : "Isbjørner er kult da",
+      "Bilder" : [ "Bilder/Isbjørn - Blå.png", "Bilder/Isbjørn - Rød.png", "Bilder/Isbjørn - Grønn.png", "Bilder/Isbjørn - Lilla.png", "Bilder/Isbjørn - Standard.png" ],
+      "Navn" : "Isbjørn",
+      "Pris" : 9000,
+      "Type" : "Dyr"
     }
   }
 }
