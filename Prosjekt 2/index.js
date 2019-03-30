@@ -18,7 +18,7 @@
     const pris = Math.round(prisDecider);
 
 
-//Ignorer produkter uten rabatt
+//Ignorer produkter uten rabatt ved å prøve å forandre en konstant
   if (orginalPris == pris){
     orginalPris = "";
   }
@@ -30,7 +30,7 @@
         <img src="${vare.Bilder[index]}">
         <p class="strikeThrough">Før ${orginalPris},-</p>
         <p class="nyPris">${pris},-</p>
-        <a href="produkt.html?id=${key}">Se mer</a>
+        <a href="produkt.html?id=${key}&pris=${pris}">Se mer</a>
       </section>
     `;
 }

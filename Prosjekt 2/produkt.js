@@ -6,6 +6,7 @@
   var url_string = window.location.href
   var url = new URL(url_string);
   var id = url.searchParams.get("id");
+  var pris = url.searchParams.get("pris");
 
 //Database-elementer
   const database = firebase.database();
@@ -33,11 +34,7 @@
     bilderad += `</div>`;
 
 
-    let rabatt = 1-(Math.floor(Math.random() * 15)/20);
-    let orginalPris = `${vare.Pris}`
-    let prisDecider = `${vare.Pris}`*rabatt;
-    let pris = Math.round(prisDecider);
-
+    const orginalPris = `${vare.Pris}`
 
     const varenummer = Math.floor(Math.random() * 100000);
 
