@@ -41,6 +41,13 @@
       "Navn" : "Sjiraff",
       "Pris" : 7000,
       "Type" : "Dyr"
+    },
+    "Panda" : {
+      "Beskrivelse" : "Pandaer er kult da",
+      "Bilder" : [ "Bilder/Panda - Blå.png", "Bilder/Panda - Rød.png", "Bilder/Panda - Grønn.png", "Bilder/Panda - Lilla.png", "Bilder/Panda - Standard.png" ],
+      "Navn" : "Panda",
+      "Pris" : 5200,
+      "Type" : "Dyr"
     }
   }
 }
