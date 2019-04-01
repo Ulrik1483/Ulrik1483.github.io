@@ -79,7 +79,7 @@ nav a:hover{
   margin-top: -0.8rem;
   font-weight: bold;
 }
-.productSection a{
+.purchaseLink{
   text-decoration: none;
   border: solid 1px black;
   padding: 8px 20px 8px 20px;
@@ -143,10 +143,69 @@ nav a:hover{
   font-size: 22px;
   margin-top: 2vh;
 }
+.tomrom{
+  padding: 6.5vh;
+}
+footer{
+  border-top: 1px solid black;
+  margin-top: 4rem;
+  text-align: center;
+  padding: 8px;
+}
 
+/*about.html*/
+  .about h1{
+    font-size: 200%;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 1rem;
+  }
+  .about p{
+    font-size: 130%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: -18px;
+  }
 
-@media (max-width: 1920px) {
-
+@media (max-width: 1900px) {
+  main{
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .display{
+    margin-top: 4rem;
+  }
+  #bildecontainer{
+    padding-right: 5rem;
+    padding-top: 5rem;
+    margin-left: 1rem;
+    transform: scale(0.75);
+  }
+  .overviewLeft section{
+    padding-bottom: 2rem;
+    margin-left: 10%;
+  }
+  .overviewLeft{
+    margin-right: -24rem;
+  }
+  .overviewLeft section{
+    font-size: 120%;
+  }
+  .overviewLeft section div{
+    margin-top: -2%;
+  }
+  .overviewRight{
+    margin-left: 2rem;
+  }
+  .bilderad{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10vh;
+  }
+  .bilderad img{
+    padding-right: 2vh;
+    padding-top: 2vh;
+    margin-right: 2rem;
+  }
 }
 @media (max-width: 1600px) {
 

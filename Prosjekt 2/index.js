@@ -29,7 +29,7 @@
         <img src="${vare.Bilder[index]}">
         <p class="strikeThrough">Før ${orginalPris},-</p>
         <p class="nyPris">${pris},-</p>
-        <a href="produkt.html?id=${key}&pris=${pris}">Se mer</a>
+        <a href="produkt.html?id=${key}&pris=${pris}" class="purchaseLink">Se mer</a>
       </section>
     `;
 }
