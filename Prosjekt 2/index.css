@@ -79,6 +79,9 @@ nav a:hover{
   margin-top: -0.8rem;
   font-weight: bold;
 }
+#egPris{
+  margin-top: 1rem;
+}
 .purchaseLink{
   text-decoration: none;
   border: solid 1px black;
@@ -93,6 +96,15 @@ nav a:hover{
 
 }
 
+/*alleProdukter*/
+#alleProdukterDescription{
+  margin-bottom: -14rem;
+}
+.buttonAll{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 24px;
+}
 
 /*produkt.html spesefike ting*/
 .dualDisplay{
@@ -204,7 +216,7 @@ footer{
   .bilderad img{
     padding-right: 2vh;
     padding-top: 2vh;
-    margin-right: 2rem;
+    margin-right: 2.2rem;
   }
 }
 @media (max-width: 1600px) {

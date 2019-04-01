@@ -1,6 +1,7 @@
 //HTML-elementer
   const overviewLeft = document.querySelector(".overviewLeft");
   const overviewRight = document.querySelector(".overviewRight");
+  const overviewBottom = document.querySelector(".overviewBottom");
 
 //URL-parameter
   var url_string = window.location.href
@@ -49,7 +50,13 @@
         <p class="strikeThrough">Før ${orginalPris},-</p>
         <p class="nyPris">${pris},-</p>
         ${bilderad}
-        <div> <button class="purchaseButton">Legg til handlekurv</button> </div>
+        <div> <button class="purchaseButton">Legg til handlekurven</button> </div>
+      </section>
+    `;
+    overviewBottom.innerHTML +=`
+      <section>
+        <h1>Produkt informasjon</h1>
+        <p>${vare.Beskrivelse}</p>
       </section>
     `;
 
