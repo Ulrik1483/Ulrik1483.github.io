@@ -27,5 +27,14 @@
     `;
   }
 
+function vis1(){
+  display.innerHTML = "";
+  varer.orderByChild("Type").equalTo("Dyr").on("child_added", visVare)
+}
+function vis2(){
+  display.innerHTML = "";
+  varer.orderByChild("Type").equalTo("Ting").on("child_added", visVare)
+}
+
 //Event-Listeners
 varer.on("child_added", visVare)
