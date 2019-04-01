@@ -1,7 +1,8 @@
 
 //Database-Elementer
   const database = firebase.database();
-  const varer = database.ref("Dyrebakken/Varer");
+  const dyrene = database.ref("Dyrebakken/Varer/Dyr/");
+  const tingene = database.ref("Dyrebakken/Varer/Ting/");
 
 //HTML-Elementer
   const display = document.querySelector(".display");
@@ -15,8 +16,6 @@
 
     let pris = `${vare.Pris}`
 
-
-
     display.innerHTML +=`
       <section class="productSection">
         <h1>${vare.Navn}</h1>
@@ -27,14 +26,23 @@
     `;
   }
 
-function vis1(){
+function visDyrNavn(){
   display.innerHTML = "";
-  varer.orderByChild("Type").equalTo("Dyr").on("child_added", visVare)
+  dyrene.on("child_added", visVare);
 }
-function vis2(){
+function visDyrPris(){
   display.innerHTML = "";
-  varer.orderByChild("Type").equalTo("Ting").on("child_added", visVare)
+  dyrene.orderByChild("Pris").on("child_added", visVare);
+}
+function visTingNavn(){
+  display.innerHTML = "";
+  tingene.on("child_added", visVare);
+}
+function visTingPris(){
+  display.innerHTML = "";
+  tingene.orderByChild("Pris").on("child_added", visVare);
 }
 
 //Event-Listeners
-varer.on("child_added", visVare)
+dyrene.on("child_added", visVare)
+tingene.on("child_added", visVare)

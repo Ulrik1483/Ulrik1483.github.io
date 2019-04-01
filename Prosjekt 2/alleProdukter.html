@@ -16,15 +16,24 @@
       </nav>
     </header>
     <main>
-      <article class="description" id="alleProdukterDescription">
-        <p>Butikken for dyr og dens slags</p>
-        <article class="buttonAll">
-          <button onclick="vis1()">1</button>
-          <button onclick="vis2()">2</button>
-          <button onclick="vis3()">3</button>
-          <button onclick="vis4()">4</button>
-        </article>
-      </article>
+      <article class="description" id="alleProdukterDescription"><p>Butikken for dyr og dens slags</p>
+        <section class="sort">
+              <div class="dropdown">
+                <button class="dropbtn">Dyr</button>
+                <div class="dropdown-content">
+                  <a onclick="visDyrNavn()">Navn</a>
+                  <a onclick="visDyrPris()">Pris</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Tilbehør</button>
+                <div class="dropdown-content">
+                  <a onclick="visTingNavn()">Navn</a>
+                  <a onclick="visTingPris()">Pris</a>
+                </div>
+              </div>
+            </article>
+          </section>
       <article class="display"></article>
     </main>
     <footer>

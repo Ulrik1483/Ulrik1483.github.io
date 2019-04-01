@@ -11,7 +11,8 @@
 
 //Database-elementer
   const database = firebase.database();
-  const varer = database.ref("Dyrebakken/Varer/" + id);
+  const dyrene = database.ref("Dyrebakken/Varer/Dyr/" + id);
+  const tingene = database.ref("Dyrebakken/Varer/Ting/" + id);
 
 //Legger innhold til main
   function byttBilde(bilde){
@@ -41,8 +42,8 @@
 
     overviewLeft.innerHTML +=`
       <section>
-        <h1>${vare.Navn}</h1>
-        <div>varenummer: ${varenummer}</div>
+        <h1 class="overviewContent">${vare.Navn}</h1>
+        <div class="overviewContent">varenummer: ${varenummer}</div>
       </section>
       `;
     overviewRight.innerHTML +=`
@@ -55,8 +56,8 @@
     `;
     overviewBottom.innerHTML +=`
       <section>
-        <h1>Produkt informasjon</h1>
-        <p>${vare.Beskrivelse}</p>
+        <h1 class="overviewContent">Produkt informasjon</h1>
+        <p class="overviewContent">${vare.Beskrivelse}</p>
       </section>
     `;
 
@@ -74,4 +75,5 @@
   }
 
 //Event Listener
-  varer.on("value", visVare);
+  dyrene.on("value", visVare);
+  tingene.on("value", visVare);

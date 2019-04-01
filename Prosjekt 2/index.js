@@ -1,7 +1,8 @@
 
 //Database-Elementer
   const database = firebase.database();
-  const varer = database.ref("Dyrebakken/Varer");
+  const dyrene = database.ref("Dyrebakken/Varer/Dyr/");
+  const tingene = database.ref("Dyrebakken/Varer/Ting/");
 
 //HTML-Elementer
   const display = document.querySelector(".display");
@@ -36,4 +37,5 @@
 
 
 //Event-Listeners
-varer.limitToFirst(6).on("child_added", visVare)
+dyrene.limitToFirst(3).on("child_added", visVare)
+tingene.limitToFirst(3).on("child_added", visVare)

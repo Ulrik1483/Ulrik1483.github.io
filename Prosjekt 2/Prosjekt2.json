@@ -1,67 +1,71 @@
 {
   "Varer" : {
-    "Delfin" : {
-      "Beskrivelse" : "Delfiner er kult da",
-      "Bilder" : [ "Bilder/Delfin - Blå.png", "Bilder/Delfin - Rød.png", "Bilder/Delfin - Grønn.png", "Bilder/Delfin - Lilla.png", "Bilder/Delfin - Standard.png" ],
-      "Navn" : "Delfin",
-      "Pris" : 3900,
-      "Type" : "Dyr"
+    "Dyr" : {
+      "Delfin" : {
+        "Beskrivelse" : "Delfiner er kult da",
+        "Bilder" : [ "Bilder/Delfin - Blå.png", "Bilder/Delfin - Rød.png", "Bilder/Delfin - Grønn.png", "Bilder/Delfin - Lilla.png", "Bilder/Delfin - Standard.png" ],
+        "Navn" : "Delfin",
+        "Pris" : 3900,
+        "Type" : "Dyr"
+      },
+      "Gorilla" : {
+        "Beskrivelse" : "Gorillaer er kult da",
+        "Bilder" : [ "Bilder/Gorilla - Blå.png", "Bilder/Gorilla - Rød.png", "Bilder/Gorilla - Grønn.png", "Bilder/Gorilla - Lilla.png", "Bilder/Gorilla - Standard.png" ],
+        "Navn" : "Gorilla",
+        "Pris" : 900,
+        "Type" : "Dyr"
+      },
+      "Hund" : {
+        "Beskrivelse" : "Hunder er kult da",
+        "Bilder" : [ "Bilder/Hund - Blå.png", "Bilder/Hund - Rød.png", "Bilder/Hund - Grønn.png", "Bilder/Hund - Lilla.png", "Bilder/Hund - Standard.png" ],
+        "Navn" : "Hund",
+        "Pris" : 1300,
+        "Type" : "Dyr"
+      },
+      "Løve" : {
+        "Beskrivelse" : "Løver er kult da",
+        "Bilder" : [ "Bilder/Løve - Blå.png", "Bilder/Løve - Rød.png", "Bilder/Løve - Grønn.png", "Bilder/Løve - Lilla.png", "Bilder/Løve - Standard.png" ],
+        "Navn" : "Løve",
+        "Pris" : 5300,
+        "Type" : "Dyr"
+      },
+      "Sjiraff" : {
+        "Beskrivelse" : "Sjiraffer er kult da",
+        "Bilder" : [ "Bilder/Sjiraff - Blå.png", "Bilder/Sjiraff - Rød.png", "Bilder/Sjiraff - Grønn.png", "Bilder/Sjiraff - Lilla.png", "Bilder/Sjiraff - Standard.png" ],
+        "Navn" : "Sjiraff",
+        "Pris" : 7000,
+        "Type" : "Dyr"
+      },
+      "Panda" : {
+        "Beskrivelse" : "Pandaer er kult da",
+        "Bilder" : [ "Bilder/Panda - Blå.png", "Bilder/Panda - Rød.png", "Bilder/Panda - Grønn.png", "Bilder/Panda - Lilla.png", "Bilder/Panda - Standard.png" ],
+        "Navn" : "Panda",
+        "Pris" : 5200,
+        "Type" : "Dyr"
+      },
+      "Isbjørn" : {
+        "Beskrivelse" : "Isbjørner er kult da",
+        "Bilder" : [ "Bilder/Isbjørn - Blå.png", "Bilder/Isbjørn - Rød.png", "Bilder/Isbjørn - Grønn.png", "Bilder/Isbjørn - Lilla.png", "Bilder/Isbjørn - Standard.png" ],
+        "Navn" : "Isbjørn",
+        "Pris" : 9000,
+        "Type" : "Dyr"
+      }
     },
-    "Gorilla" : {
-      "Beskrivelse" : "Gorillaer er kult da",
-      "Bilder" : [ "Bilder/Gorilla - Blå.png", "Bilder/Gorilla - Rød.png", "Bilder/Gorilla - Grønn.png", "Bilder/Gorilla - Lilla.png", "Bilder/Gorilla - Standard.png" ],
-      "Navn" : "Gorilla",
-      "Pris" : 900,
-      "Type" : "Dyr"
-    },
-    "Halsbånd" : {
-      "Beskrivelse" : "Halsbånd er kult da",
-      "Bilder" : [ "Bilder/Halsbånd - Blå.png", "Bilder/Halsbånd - Rød.png", "Bilder/Halsbånd - Grønn.png", "Bilder/Halsbånd - Lilla.png", "Bilder/Halsbånd - Standard.png" ],
-      "Navn" : "Halsbånd",
-      "Pris" : 500,
-      "Type" : "Ting"
-    },
-    "Hund" : {
-      "Beskrivelse" : "Hunder er kult da",
-      "Bilder" : [ "Bilder/Hund - Blå.png", "Bilder/Hund - Rød.png", "Bilder/Hund - Grønn.png", "Bilder/Hund - Lilla.png", "Bilder/Hund - Standard.png" ],
-      "Navn" : "Hund",
-      "Pris" : 1300,
-      "Type" : "Dyr"
-    },
-    "Løve" : {
-      "Beskrivelse" : "Løver er kult da",
-      "Bilder" : [ "Bilder/Løve - Blå.png", "Bilder/Løve - Rød.png", "Bilder/Løve - Grønn.png", "Bilder/Løve - Lilla.png", "Bilder/Løve - Standard.png" ],
-      "Navn" : "Løve",
-      "Pris" : 5300,
-      "Type" : "Dyr"
-    },
-    "Sjiraff" : {
-      "Beskrivelse" : "Sjiraffer er kult da",
-      "Bilder" : [ "Bilder/Sjiraff - Blå.png", "Bilder/Sjiraff - Rød.png", "Bilder/Sjiraff - Grønn.png", "Bilder/Sjiraff - Lilla.png", "Bilder/Sjiraff - Standard.png" ],
-      "Navn" : "Sjiraff",
-      "Pris" : 7000,
-      "Type" : "Dyr"
-    },
-    "Panda" : {
-      "Beskrivelse" : "Pandaer er kult da",
-      "Bilder" : [ "Bilder/Panda - Blå.png", "Bilder/Panda - Rød.png", "Bilder/Panda - Grønn.png", "Bilder/Panda - Lilla.png", "Bilder/Panda - Standard.png" ],
-      "Navn" : "Panda",
-      "Pris" : 5200,
-      "Type" : "Dyr"
-    },
+  "Ting" : {
     "Pisk" : {
       "Beskrivelse" : "Pisker er kult da",
       "Bilder" : [ "Bilder/Pisk - Blå.png", "Bilder/Pisk - Rød.png", "Bilder/Pisk - Grønn.png", "Bilder/Pisk - Lilla.png", "Bilder/Pisk - Standard.png" ],
       "Navn" : "Pisk",
       "Pris" : 600,
       "Type" : "Ting"
-    },
-    "Isbjørn" : {
-      "Beskrivelse" : "Isbjørner er kult da",
-      "Bilder" : [ "Bilder/Isbjørn - Blå.png", "Bilder/Isbjørn - Rød.png", "Bilder/Isbjørn - Grønn.png", "Bilder/Isbjørn - Lilla.png", "Bilder/Isbjørn - Standard.png" ],
-      "Navn" : "Isbjørn",
-      "Pris" : 9000,
-      "Type" : "Dyr"
+      },
+    "Halsbånd" : {
+      "Beskrivelse" : "Halsbånd er kult da",
+      "Bilder" : [ "Bilder/Halsbånd - Blå.png", "Bilder/Halsbånd - Rød.png", "Bilder/Halsbånd - Grønn.png", "Bilder/Halsbånd - Lilla.png", "Bilder/Halsbånd - Standard.png" ],
+      "Navn" : "Halsbånd",
+      "Pris" : 500,
+      "Type" : "Ting"
     }
   }
+}
 }
