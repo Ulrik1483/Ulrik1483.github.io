@@ -5,7 +5,7 @@
   const tingene = database.ref("Dyrebakken/Varer/Ting/");
 
 //HTML-Elementer
-  const display = document.querySelector(".display");
+  const allDisplay = document.querySelector(".allDisplay");
 
 //Legger innhold til main
   function visVare(snap) {
@@ -16,7 +16,7 @@
 
     let pris = `${vare.Pris}`
 
-    display.innerHTML +=`
+    allDisplay.innerHTML +=`
       <section class="productSection">
         <h1>${vare.Navn}</h1>
         <img src="${vare.Bilder[index]}">
@@ -27,20 +27,25 @@
   }
 
 function visDyrNavn(){
-  display.innerHTML = "";
+  allDisplay.innerHTML = "";
   dyrene.on("child_added", visVare);
 }
 function visDyrPris(){
-  display.innerHTML = "";
+  allDisplay.innerHTML = "";
   dyrene.orderByChild("Pris").on("child_added", visVare);
 }
 function visTingNavn(){
-  display.innerHTML = "";
+  allDisplay.innerHTML = "";
   tingene.on("child_added", visVare);
 }
 function visTingPris(){
-  display.innerHTML = "";
+  allDisplay.innerHTML = "";
   tingene.orderByChild("Pris").on("child_added", visVare);
+}
+function visReset(){
+  allDisplay.innerHTML ="";
+  dyrene.on("child_added", visVare);
+  tingene.on("child_added", visVare);
 }
 
 //Event-Listeners
