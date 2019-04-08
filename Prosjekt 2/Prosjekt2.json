@@ -135,6 +135,13 @@
       "Navn" : "Dyre seng",
       "Pris" : 5400,
       "Type" : "Ting"
+    },
+    "Transport boks" : {
+      "Beskrivelse" : "Flyttebokser er kult da",
+      "Bilder" : [ "Bilder/Transport boks - Blå.png", "Bilder/Transport boks - Rød.png", "Bilder/Transport boks - Grønn.png", "Bilder/Transport boks - Lilla.png", "Bilder/Transport boks - Standard.png" ],
+      "Navn" : "Flytteboks",
+      "Pris" : 60,
+      "Type" : "Ting"
     }
   }
 }
