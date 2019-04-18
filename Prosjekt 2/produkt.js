@@ -41,7 +41,7 @@
     const varenummer = Math.floor(Math.random() * 100000);
 
     overviewLeft.innerHTML +=`
-      <section>
+      <section class="overviewLeftTxt">
         <h1 class="overviewContent">${vare.Navn}</h1>
         <div class="overviewContent">varenummer: ${varenummer}</div>
       </section>
