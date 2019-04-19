@@ -1,11 +1,17 @@
 html{
   font-size: 100%;
 }
+header{
+  margin-top: -0.5%;
+  margin-left: -2%;
+  margin-right: -2%;
+}
 body{
   background-image:
     linear-gradient(
       lightblue, white 98%
     );
+  background-repeat: no-repeat;
 }
 main{
   margin-left: 16rem;
@@ -39,12 +45,10 @@ nav a:hover{
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-top: 0.5rem;
-  margin-bottom: -10rem;
   font-size: 24px;
   background-color: beige;
   font-family: 'Roboto Slab', serif;
-  padding-left: 16rem;
-  padding-right: 16rem;
+
 }
 .productSection img{
   width: 100%;
@@ -55,7 +59,8 @@ nav a:hover{
   transform: scale(0.8);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: -4rem;
+  margin-top: -4%;
+  margin-bottom: -4%;
   padding-bottom: 10rem;
   background-color: rgb(250, 250, 250);
 }
@@ -85,7 +90,7 @@ nav a:hover{
 .purchaseLink{
   text-decoration: none;
   border: solid 1px black;
-  padding: 8px 20px 8px 20px;
+  padding: 2% 5% 2% 5%;
   margin: none;
   text-align: center;
   color: black;
@@ -97,16 +102,15 @@ nav a:hover{
 .sort{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: -30%;
 }
 .allDisplay{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   position: relative;
   background-color: rgb(250, 250, 250);
-  margin-top: 20%;
-  margin-left: 8rem;
-  margin-right: 8rem;
+  margin-top: 2%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 /*produkt.html spesefike ting*/
 .dualDisplay{
@@ -132,7 +136,7 @@ nav a:hover{
 .bilderad{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 2%;
   margin-top: 2rem;
 }
 .bilderad img{
@@ -146,7 +150,7 @@ nav a:hover{
   grid-template-rows: 1fr, 4fr;
 }
 .overviewLeftTxt{
-  padding-left: 8%;
+  padding-left: 7%;
 }
 .overviewContent{
   font-size: 160%;
@@ -161,17 +165,17 @@ nav a:hover{
   margin-right: 20%;
   padding: 5%;
 }
+.overviewRight{
+  margin-bottom:8%;
+}
 .overviewBottom{
-  margin-left: 10%;
+  margin-left: 8%;
 }
 .purchaseButton{
   background-color: gold;
   padding: 1vh;
   font-size: 22px;
   margin-top: 2vh;
-}
-.tomrom{
-  padding: 6.5vh;
 }
 footer{
   border-top: 1px solid black;
@@ -197,15 +201,13 @@ footer{
 /*Dropdown knapper*/
 
   .dropbtn {
-    background-color: rgb(230, 230, 230);;
+    background-color: rgb(230, 230, 230);
     color: black;
     padding: 18px;
     font-size: 22px;
     border: none;
     transition: 1s;
     position: relative;
-    margin-right: 100px;
-    margin-left: 100px;
     cursor: pointer;
   }
   .dropdown {
@@ -243,51 +245,111 @@ footer{
     margin-left: 6rem;
     margin-right: 6rem;
   }
-  .display{
-    margin-top: 4rem;
-  }
-  #bildecontainer{
-    padding-right: 5rem;
-    padding-top: 5rem;
-    margin-left: 1rem;
-    transform: scale(0.75);
-  }
-  .overviewLeft section{
-    padding-bottom: 2rem;
-    margin-left: 10%;
-  }
-  .overviewLeft{
-    margin-right: -24rem;
-  }
-  .overviewLeft section{
-    font-size: 120%;
-  }
-  .overviewLeft section div{
-    margin-top: -2%;
-  }
-  .overviewRight{
-    margin-left: 2rem;
-  }
   .bilderad{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10vh;
+    grid-template-columns: repeat(3, 1fr);
   }
   .bilderad img{
-    padding-right: 2vh;
-    padding-top: 2vh;
-    margin-right: 2.2rem;
+    width:80%;
   }
 }
 @media (max-width: 1600px) {
-
+  header{
+    margin-top: -1.5%;
+    margin-left: -2%;
+    margin-right: -2%;
+  }
+  main{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .dualDisplay{
+    grid-template-columns: 1fr;
+  }
+  .overviewRight{
+    margin-top: -8%;
+    margin-bottom: -2%;
+    margin-left: -5%;
+    margin-right: none;
+    transform: scale(0.7);
+  }
+  .overviewRight section .strikeThrough{
+    font-size: 150%;
+  }
+  .overviewRight section .nyPris{
+    font-size: 180%;
+  }
+  .purchaseButton{
+    font-size: 180%;
+  }
 }
 @media (max-width: 1200px) {
-
+  header{
+    margin-top: -2%;
+  }
+  .allDisplay{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .display{
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: -14%;
+    margin-bottom: -12%;
+  }
 }
 @media (max-width: 900px) {
-
+  main{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .allDisplay{
+    grid-template-columns: 1fr;
+  }
+  .display{
+    grid-template-columns: 1fr;
+    margin-top: -70%;
+  }
+  nav a{
+    font-size: 20px;
+  }
+  .dropbtn{
+    font-size: 18px;
+  }
+  .bilderad{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .overviewRight{
+    margin-top: -45%;
+    margin-bottom: -2%;
+    margin-left: -25%;
+    margin-right: none;
+    transform: scale(0.4);
+  }
+  .overviewRight section .strikeThrough{
+    font-size: 250%;
+  }
+  .overviewRight section .nyPris{
+    font-size: 280%;
+  }
+  .purchaseButton{
+    font-size: 280%;
+    margin-top: 15%;
+  }
 }
 @media (max-width: 600px) {
-
+  main{
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  .display{
+    margin-top: -80%;
+  }
+  .description{
+    font-size: 20px;
+  }
+  nav a{
+    font-size: 16px;
+  }
+  .dropbtn{
+    font-size: 14px;
+    font-weight: bold;
+  }
 }
