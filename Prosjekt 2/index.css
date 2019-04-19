@@ -1,30 +1,33 @@
-html{
+html {
   font-size: 100%;
 }
-header{
+
+header {
   margin-top: -0.5%;
   margin-left: -2%;
   margin-right: -2%;
 }
-body{
+
+body {
   background-image:
-    linear-gradient(
-      lightblue, white 98%
-    );
+    linear-gradient(lightblue, white 98%);
   background-repeat: no-repeat;
 }
-main{
+
+main {
   margin-left: 16rem;
   margin-right: 16rem;
   background-color: white;
 }
-nav{
-  display:grid;
+
+nav {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-bottom: 2px solid black;
   margin-top: -4px;
 }
-nav a{
+
+nav a {
   text-align: center;
   text-decoration: none;
   color: black;
@@ -34,13 +37,16 @@ nav a{
   transition: 0.5s;
   font-family: 'Roboto Slab', serif;
 }
-nav a:hover{
+
+nav a:hover {
   background-color: white;
 }
-.webBanner{
-  width:100%;
+
+.webBanner {
+  width: 100%;
 }
-.description{
+
+.description {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -50,12 +56,14 @@ nav a:hover{
   font-family: 'Roboto Slab', serif;
 
 }
-.productSection img{
+
+.productSection img {
   width: 100%;
   border: 1px solid black;
   background-color: beige;
 }
-.display{
+
+.display {
   transform: scale(0.8);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -64,30 +72,37 @@ nav a:hover{
   padding-bottom: 10rem;
   background-color: rgb(250, 250, 250);
 }
-.productSection{
+
+.productSection {
   padding: 2rem;
   overflow: hidden;
   margin-left: 2.5rem;
 }
-.productSection h1{
+
+.productSection h1 {
   font-size: 32px;
 }
-.productSection div{
+
+.productSection div {
   font-size: 18px;
   margin-top: -1.5rem;
 }
-.strikeThrough{
+
+.strikeThrough {
   font-size: 18px;
 }
-.nyPris{
+
+.nyPris {
   font-size: 24px;
   margin-top: -0.8rem;
   font-weight: bold;
 }
-#egPris{
+
+#egPris {
   margin-top: 1rem;
 }
-.purchaseLink{
+
+.purchaseLink {
   text-decoration: none;
   border: solid 1px black;
   padding: 2% 5% 2% 5%;
@@ -99,12 +114,13 @@ nav a:hover{
 }
 
 /*alleProdukter*/
-.sort{
+.sort {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-.allDisplay{
-  display:grid;
+
+.allDisplay {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   position: relative;
   background-color: rgb(250, 250, 250);
@@ -112,15 +128,17 @@ nav a:hover{
   margin-left: 8%;
   margin-right: 8%;
 }
+
 /*produkt.html spesefike ting*/
-.dualDisplay{
+.dualDisplay {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-#bildecontainer{
+
+#bildecontainer {
   transform: scale(0.8);
   background-size: contain;
   background-position: left;
@@ -133,30 +151,36 @@ nav a:hover{
   grid-row: 2;
   margin-top: -3rem;
 }
-.bilderad{
+
+.bilderad {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 2%;
   margin-top: 2rem;
 }
-.bilderad img{
+
+.bilderad img {
   width: 100%;
   cursor: pointer;
   border: 1px solid black;
   background-color: beige;
 }
-.overviewLeft{
+
+.overviewLeft {
   display: grid;
   grid-template-rows: 1fr, 4fr;
 }
-.overviewLeftTxt{
+
+.overviewLeftTxt {
   padding-left: 7%;
 }
-.overviewContent{
+
+.overviewContent {
   font-size: 160%;
   font-family: 'Roboto Slab', serif;
 }
-.overviewRight{
+
+.overviewRight {
   display: grid;
   grid-template-rows: 1fr, 1fr;
   background-color: rgb(250, 250, 250);
@@ -165,20 +189,24 @@ nav a:hover{
   margin-right: 20%;
   padding: 5%;
 }
-.overviewRight{
-  margin-bottom:8%;
+
+.overviewRight {
+  margin-bottom: 8%;
 }
-.overviewBottom{
+
+.overviewBottom {
   margin-left: 6%;
   line-height: 3vh;
 }
-.purchaseButton{
+
+.purchaseButton {
   background-color: gold;
   padding: 1vh;
   font-size: 22px;
   margin-top: 2vh;
 }
-footer{
+
+footer {
   border-top: 1px solid black;
   margin-top: 4rem;
   text-align: center;
@@ -186,198 +214,242 @@ footer{
 }
 
 /*about.html*/
-.about h1{
-    font-size: 200%;
-    font-family: 'Roboto Slab', serif;
-    margin-left: 1rem;
+.about h1 {
+  font-size: 200%;
+  font-family: 'Roboto Slab', serif;
+  margin-left: 1rem;
 }
-.about p{
-    font-size: 130%;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: -18px;
-  }
+
+.about p {
+  font-size: 130%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: -18px;
+}
 
 
 /*Dropdown knapper*/
 
-  .dropbtn {
-    background-color: rgb(230, 230, 230);
-    color: black;
-    padding: 18px;
-    font-size: 22px;
-    border: none;
-    transition: 1s;
-    position: relative;
-    cursor: pointer;
-  }
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f2f2f2;
-    width: 100%;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    cursor: pointer;
-  }
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    transition: 0.5s;
-  }
+.dropbtn {
+  background-color: rgb(230, 230, 230);
+  color: black;
+  padding: 18px;
+  font-size: 22px;
+  border: none;
+  transition: 1s;
+  position: relative;
+  cursor: pointer;
+}
 
-  .dropdown-content a:hover {background-color: #ddd;}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-  .dropdown:hover .dropdown-content {display: block;}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f2f2f2;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  cursor: pointer;
+}
 
-  .dropdown:hover .dropbtn {background-color: gray;}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: 0.5s;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: gray;
+}
 
 /*CSS for forskjellige skjermstørrelser*/
 
 @media (max-width: 1900px) {
-  main{
+  main {
     margin-left: 6rem;
     margin-right: 6rem;
   }
-  .bilderad{
+
+  .bilderad {
     grid-template-columns: repeat(3, 1fr);
   }
-  .bilderad img{
-    width:80%;
+
+  .bilderad img {
+    width: 80%;
   }
 }
+
 @media (max-width: 1600px) {
-  header{
+  header {
     margin-top: -1.5%;
     margin-left: -2%;
     margin-right: -2%;
   }
-  main{
+
+  main {
     margin-left: 4rem;
     margin-right: 4rem;
   }
-  .dualDisplay{
+
+  .dualDisplay {
     grid-template-columns: 1fr;
   }
-  .overviewRight{
+
+  .overviewRight {
     margin-top: -8%;
     margin-bottom: -2%;
     margin-left: -5%;
     margin-right: none;
     transform: scale(0.7);
   }
-  .overviewRight section .strikeThrough{
+
+  .overviewRight section .strikeThrough {
     font-size: 150%;
   }
-  .overviewRight section .nyPris{
+
+  .overviewRight section .nyPris {
     font-size: 180%;
   }
-  .purchaseButton{
+
+  .purchaseButton {
     font-size: 180%;
   }
-  .overviewBottom{
+
+  .overviewBottom {
     margin-right: 10%;
-  } 
+  }
 }
+
 @media (max-width: 1200px) {
-  header{
+  header {
     margin-top: -2%;
   }
-  .allDisplay{
+
+  .allDisplay {
     grid-template-columns: repeat(2, 1fr);
   }
-  .display{
+
+  .display {
     grid-template-columns: repeat(2, 1fr);
     margin-top: -14%;
     margin-bottom: -12%;
   }
-  .overviewBottom{
+
+  .overviewBottom {
     margin-right: 20%;
-  } 
+  }
 }
+
 @media (max-width: 900px) {
-  main{
+  main {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .allDisplay{
+
+  .allDisplay {
     grid-template-columns: 1fr;
   }
-  .display{
+
+  .display {
     grid-template-columns: 1fr;
     margin-top: -70%;
     margin-bottom: -80%;
   }
-  nav a{
+
+  nav a {
     font-size: 20px;
   }
-  .dropbtn{
+
+  .dropbtn {
     font-size: 18px;
   }
-  .bilderad{
+
+  .bilderad {
     grid-template-columns: repeat(2, 1fr);
   }
-  #bildecontainer{
+
+  #bildecontainer {
     transform: scale(0.78);
     margin-left: -2%;
   }
-  .overviewRight{
+
+  .overviewRight {
     margin-top: -50%;
     margin-bottom: -45%;
     margin-left: -25%;
     margin-right: none;
     transform: scale(0.4);
   }
-  .overviewRight section .strikeThrough{
+
+  .overviewRight section .strikeThrough {
     font-size: 250%;
   }
-  .overviewRight section .nyPris{
+
+  .overviewRight section .nyPris {
     font-size: 280%;
   }
-  .purchaseButton{
+
+  .purchaseButton {
     font-size: 280%;
     margin-top: 15%;
   }
-  .overviewBottom{
+
+  .overviewBottom {
     margin-right: 40%;
-  } 
+  }
 }
+
 @media (max-width: 600px) {
-  main{
+  main {
     margin-left: -1rem;
     margin-right: -1rem;
   }
-  .display{
+
+  .display {
     margin-top: -80%;
     margin-bottom: -90%;
   }
-  .description{
+
+  .description {
     font-size: 20px;
   }
-  nav a{
+
+  nav a {
     font-size: 16px;
   }
-  .dropbtn{
+
+  .dropbtn {
     font-size: 16px;
     font-weight: bold;
   }
-  .dualDisplay{
+
+  .dualDisplay {
     margin-left: -10%;
   }
-  #bildecontainer{
+
+  #bildecontainer {
     transform: scale(0.5);
     margin-left: -12%;
     margin-top: -15%;
     margin-bottom: -15%;
   }
-  .overviewBottom{
+
+  .overviewBottom {
     margin-right: 55%;
-  } 
+  }
 }

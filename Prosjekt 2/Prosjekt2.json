@@ -1,148 +1,148 @@
 {
-  "Varer" : {
-    "Dyr" : {
-      "Delfin" : {
-        "Beskrivelse" : "Delfiner er den yngste og mest artsrike gruppen av tannhvaler, og ble trolig etablert for omkring fem millioner år siden.<br><br> Gruppen av delfiner består av små og middels store tannhvaler, som varierer i vekt fra 50 kg til nærmere 8 000 kg og i lengde fra 1,5 meter til nærmere 10 meter. Delfinene har en langstrakt, strømlinjeformet kropp som gir liten motstand i vann. De fleste artene har en tydelig sigdformet ryggfinne, som kan variere mye i høyde. Noen arter har slående fargemønstre, mens andre er mer unisont farget. De fleste artene har kjever formet som et nebb, men ikke alle. Delfinene regnes av mange blant de mest intelligente dyrene på kloden, i tillegg til at de regnes som det mest lekne sjøpattedyret.",
-        "Bilder" : [ "Bilder/Delfin - Blå.png", "Bilder/Delfin - Rød.png", "Bilder/Delfin - Grønn.png", "Bilder/Delfin - Lilla.png", "Bilder/Delfin - Standard.png" ],
-        "Navn" : "Delfin",
-        "Pris" : 3900,
-        "Type" : "Dyr"
+  "Varer": {
+    "Dyr": {
+      "Delfin": {
+        "Beskrivelse": "Delfiner er den yngste og mest artsrike gruppen av tannhvaler, og ble trolig etablert for omkring fem millioner år siden.<br><br> Gruppen av delfiner består av små og middels store tannhvaler, som varierer i vekt fra 50 kg til nærmere 8 000 kg og i lengde fra 1,5 meter til nærmere 10 meter. Delfinene har en langstrakt, strømlinjeformet kropp som gir liten motstand i vann. De fleste artene har en tydelig sigdformet ryggfinne, som kan variere mye i høyde. Noen arter har slående fargemønstre, mens andre er mer unisont farget. De fleste artene har kjever formet som et nebb, men ikke alle. Delfinene regnes av mange blant de mest intelligente dyrene på kloden, i tillegg til at de regnes som det mest lekne sjøpattedyret.",
+        "Bilder": ["Bilder/Delfin - Blå.png", "Bilder/Delfin - Rød.png", "Bilder/Delfin - Grønn.png", "Bilder/Delfin - Lilla.png", "Bilder/Delfin - Standard.png"],
+        "Navn": "Delfin",
+        "Pris": 3900,
+        "Type": "Dyr"
       },
-      "Gorilla" : {
-        "Beskrivelse" : "Gorillaer er kult da",
-        "Bilder" : [ "Bilder/Gorilla - Blå.png", "Bilder/Gorilla - Rød.png", "Bilder/Gorilla - Grønn.png", "Bilder/Gorilla - Lilla.png", "Bilder/Gorilla - Standard.png" ],
-        "Navn" : "Gorilla",
-        "Pris" : 900,
-        "Type" : "Dyr"
+      "Gorilla": {
+        "Beskrivelse": "Gorillaer er kult da",
+        "Bilder": ["Bilder/Gorilla - Blå.png", "Bilder/Gorilla - Rød.png", "Bilder/Gorilla - Grønn.png", "Bilder/Gorilla - Lilla.png", "Bilder/Gorilla - Standard.png"],
+        "Navn": "Gorilla",
+        "Pris": 900,
+        "Type": "Dyr"
       },
-      "Hund" : {
-        "Beskrivelse" : "Hunder er kult da",
-        "Bilder" : [ "Bilder/Hund - Blå.png", "Bilder/Hund - Rød.png", "Bilder/Hund - Grønn.png", "Bilder/Hund - Lilla.png", "Bilder/Hund - Standard.png" ],
-        "Navn" : "Hund",
-        "Pris" : 1300,
-        "Type" : "Dyr"
+      "Hund": {
+        "Beskrivelse": "Hunder er kult da",
+        "Bilder": ["Bilder/Hund - Blå.png", "Bilder/Hund - Rød.png", "Bilder/Hund - Grønn.png", "Bilder/Hund - Lilla.png", "Bilder/Hund - Standard.png"],
+        "Navn": "Hund",
+        "Pris": 1300,
+        "Type": "Dyr"
       },
-      "Løve" : {
-        "Beskrivelse" : "Løver er kult da",
-        "Bilder" : [ "Bilder/Løve - Blå.png", "Bilder/Løve - Rød.png", "Bilder/Løve - Grønn.png", "Bilder/Løve - Lilla.png", "Bilder/Løve - Standard.png" ],
-        "Navn" : "Løve",
-        "Pris" : 5300,
-        "Type" : "Dyr"
+      "Løve": {
+        "Beskrivelse": "Løver er kult da",
+        "Bilder": ["Bilder/Løve - Blå.png", "Bilder/Løve - Rød.png", "Bilder/Løve - Grønn.png", "Bilder/Løve - Lilla.png", "Bilder/Løve - Standard.png"],
+        "Navn": "Løve",
+        "Pris": 5300,
+        "Type": "Dyr"
       },
-      "Sjiraff" : {
-        "Beskrivelse" : "Sjiraffer er kult da",
-        "Bilder" : [ "Bilder/Sjiraff - Blå.png", "Bilder/Sjiraff - Rød.png", "Bilder/Sjiraff - Grønn.png", "Bilder/Sjiraff - Lilla.png", "Bilder/Sjiraff - Standard.png" ],
-        "Navn" : "Sjiraff",
-        "Pris" : 7000,
-        "Type" : "Dyr"
+      "Sjiraff": {
+        "Beskrivelse": "Sjiraffer er kult da",
+        "Bilder": ["Bilder/Sjiraff - Blå.png", "Bilder/Sjiraff - Rød.png", "Bilder/Sjiraff - Grønn.png", "Bilder/Sjiraff - Lilla.png", "Bilder/Sjiraff - Standard.png"],
+        "Navn": "Sjiraff",
+        "Pris": 7000,
+        "Type": "Dyr"
       },
-      "Panda" : {
-        "Beskrivelse" : "Pandaer er kult da",
-        "Bilder" : [ "Bilder/Panda - Blå.png", "Bilder/Panda - Rød.png", "Bilder/Panda - Grønn.png", "Bilder/Panda - Lilla.png", "Bilder/Panda - Standard.png" ],
-        "Navn" : "Panda",
-        "Pris" : 5200,
-        "Type" : "Dyr"
+      "Panda": {
+        "Beskrivelse": "Pandaer er kult da",
+        "Bilder": ["Bilder/Panda - Blå.png", "Bilder/Panda - Rød.png", "Bilder/Panda - Grønn.png", "Bilder/Panda - Lilla.png", "Bilder/Panda - Standard.png"],
+        "Navn": "Panda",
+        "Pris": 5200,
+        "Type": "Dyr"
       },
-      "Isbjørn" : {
-        "Beskrivelse" : "Isbjørner er kult da",
-        "Bilder" : [ "Bilder/Isbjørn - Blå.png", "Bilder/Isbjørn - Rød.png", "Bilder/Isbjørn - Grønn.png", "Bilder/Isbjørn - Lilla.png", "Bilder/Isbjørn - Standard.png" ],
-        "Navn" : "Isbjørn",
-        "Pris" : 9000,
-        "Type" : "Dyr"
+      "Isbjørn": {
+        "Beskrivelse": "Isbjørner er kult da",
+        "Bilder": ["Bilder/Isbjørn - Blå.png", "Bilder/Isbjørn - Rød.png", "Bilder/Isbjørn - Grønn.png", "Bilder/Isbjørn - Lilla.png", "Bilder/Isbjørn - Standard.png"],
+        "Navn": "Isbjørn",
+        "Pris": 9000,
+        "Type": "Dyr"
       },
-      "Katt" : {
-        "Beskrivelse" : "Katter er kult da",
-        "Bilder" : [ "Bilder/Katt - Blå.png", "Bilder/Katt - Rød.png", "Bilder/Katt - Grønn.png", "Bilder/Katt - Lilla.png", "Bilder/Katt - Standard.png" ],
-        "Navn" : "Katt",
-        "Pris" : 3200,
-        "Type" : "Dyr"
+      "Katt": {
+        "Beskrivelse": "Katter er kult da",
+        "Bilder": ["Bilder/Katt - Blå.png", "Bilder/Katt - Rød.png", "Bilder/Katt - Grønn.png", "Bilder/Katt - Lilla.png", "Bilder/Katt - Standard.png"],
+        "Navn": "Katt",
+        "Pris": 3200,
+        "Type": "Dyr"
       },
-      "Ku" : {
-        "Beskrivelse" : "Kyr er kult da",
-        "Bilder" : [ "Bilder/Ku - Blå.png", "Bilder/Ku - Rød.png", "Bilder/Ku - Grønn.png", "Bilder/Ku - Lilla.png", "Bilder/Ku - Standard.png" ],
-        "Navn" : "Ku",
-        "Pris" : 7400,
-        "Type" : "Dyr"
+      "Ku": {
+        "Beskrivelse": "Kyr er kult da",
+        "Bilder": ["Bilder/Ku - Blå.png", "Bilder/Ku - Rød.png", "Bilder/Ku - Grønn.png", "Bilder/Ku - Lilla.png", "Bilder/Ku - Standard.png"],
+        "Navn": "Ku",
+        "Pris": 7400,
+        "Type": "Dyr"
       },
-      "Dinosaur" : {
-        "Beskrivelse" : "Dinosaurer er kult da",
-        "Bilder" : [ "Bilder/Dinosaur - Blå.png", "Bilder/Dinosaur - Rød.png", "Bilder/Dinosaur - Grønn.png", "Bilder/Dinosaur - Lilla.png", "Bilder/Dinosaur - Standard.png" ],
-        "Navn" : "Dinosaur",
-        "Pris" : 12000,
-        "Type" : "Dyr"
+      "Dinosaur": {
+        "Beskrivelse": "Dinosaurer er kult da",
+        "Bilder": ["Bilder/Dinosaur - Blå.png", "Bilder/Dinosaur - Rød.png", "Bilder/Dinosaur - Grønn.png", "Bilder/Dinosaur - Lilla.png", "Bilder/Dinosaur - Standard.png"],
+        "Navn": "Dinosaur",
+        "Pris": 12000,
+        "Type": "Dyr"
       },
-      "Jaguar" : {
-        "Beskrivelse" : "Jaguarer er kult da",
-        "Bilder" : [ "Bilder/Jaguar - Blå.png", "Bilder/Jaguar - Rød.png", "Bilder/Jaguar - Grønn.png", "Bilder/Jaguar - Lilla.png", "Bilder/Jaguar - Standard.png" ],
-        "Navn" : "Jaguar",
-        "Pris" : 7800,
-        "Type" : "Dyr"
+      "Jaguar": {
+        "Beskrivelse": "Jaguarer er kult da",
+        "Bilder": ["Bilder/Jaguar - Blå.png", "Bilder/Jaguar - Rød.png", "Bilder/Jaguar - Grønn.png", "Bilder/Jaguar - Lilla.png", "Bilder/Jaguar - Standard.png"],
+        "Navn": "Jaguar",
+        "Pris": 7800,
+        "Type": "Dyr"
       },
-      "Reinsdyr" : {
-        "Beskrivelse" : "Reinsdyr er kult da",
-        "Bilder" : [ "Bilder/Reinsdyr - Blå.png", "Bilder/Reinsdyr - Rød.png", "Bilder/Reinsdyr - Grønn.png", "Bilder/Reinsdyr - Lilla.png", "Bilder/Reinsdyr - Standard.png" ],
-        "Navn" : "Reinsdyr",
-        "Pris" : 6400,
-        "Type" : "Dyr"
+      "Reinsdyr": {
+        "Beskrivelse": "Reinsdyr er kult da",
+        "Bilder": ["Bilder/Reinsdyr - Blå.png", "Bilder/Reinsdyr - Rød.png", "Bilder/Reinsdyr - Grønn.png", "Bilder/Reinsdyr - Lilla.png", "Bilder/Reinsdyr - Standard.png"],
+        "Navn": "Reinsdyr",
+        "Pris": 6400,
+        "Type": "Dyr"
       }
     },
-  "Ting" : {
-    "Pisk" : {
-      "Beskrivelse" : "Pisker er kult da",
-      "Bilder" : [ "Bilder/Pisk - Blå.png", "Bilder/Pisk - Rød.png", "Bilder/Pisk - Grønn.png", "Bilder/Pisk - Lilla.png", "Bilder/Pisk - Standard.png" ],
-      "Navn" : "Pisk",
-      "Pris" : 600,
-      "Type" : "Ting"
+    "Ting": {
+      "Pisk": {
+        "Beskrivelse": "Pisker er kult da",
+        "Bilder": ["Bilder/Pisk - Blå.png", "Bilder/Pisk - Rød.png", "Bilder/Pisk - Grønn.png", "Bilder/Pisk - Lilla.png", "Bilder/Pisk - Standard.png"],
+        "Navn": "Pisk",
+        "Pris": 600,
+        "Type": "Ting"
       },
-    "Halsbånd" : {
-      "Beskrivelse" : "Halsbånd er kult da",
-      "Bilder" : [ "Bilder/Halsbånd - Blå.png", "Bilder/Halsbånd - Rød.png", "Bilder/Halsbånd - Grønn.png", "Bilder/Halsbånd - Lilla.png", "Bilder/Halsbånd - Standard.png" ],
-      "Navn" : "Halsbånd",
-      "Pris" : 500,
-      "Type" : "Ting"
-    },
-    "Svijern" : {
-      "Beskrivelse" : "Svijern er kult da",
-      "Bilder" : [ "Bilder/Svijern - Blå.png", "Bilder/Svijern - Rød.png", "Bilder/Svijern - Grønn.png", "Bilder/Svijern - Lilla.png", "Bilder/Svijern - Standard.png" ],
-      "Navn" : "Svijern",
-      "Pris" : 2200,
-      "Type" : "Ting"
-    },
-    "Kjøtt" : {
-      "Beskrivelse" : "Kjøtt er kult da",
-      "Bilder" : [ "Bilder/Kjøtt - Blå.png", "Bilder/Kjøtt - Rød.png", "Bilder/Kjøtt - Grønn.png", "Bilder/Kjøtt - Lilla.png", "Bilder/Kjøtt - Standard.png" ],
-      "Navn" : "Kjøtt",
-      "Pris" : 900,
-      "Type" : "Ting"
-    },
-    "Beroligende_middel" : {
-      "Beskrivelse" : "Tranquilizers er kult da",
-      "Bilder" : [ "Bilder/Beroligende middel - Blå.png", "Bilder/Beroligende middel - Rød.png", "Bilder/Beroligende middel - Grønn.png", "Bilder/Beroligende middel - Lilla.png", "Bilder/Beroligende middel - Standard.png" ],
-      "Navn" : "Tranquilizer",
-      "Pris" : 4200,
-      "Type" : "Ting"
-    },
-    "Kniv" : {
-      "Beskrivelse" : "Kniver er kult da",
-      "Bilder" : [ "Bilder/Kniv - Blå.png", "Bilder/Kniv - Rød.png", "Bilder/Kniv - Grønn.png", "Bilder/Kniv - Lilla.png", "Bilder/Kniv - Standard.png" ],
-      "Navn" : "Kniv",
-      "Pris" : 2400,
-      "Type" : "Ting"
-    },
-    "Seng" : {
-      "Beskrivelse" : "Kniver er kult da",
-      "Bilder" : [ "Bilder/Seng - Blå.png", "Bilder/Seng - Rød.png", "Bilder/Seng - Grønn.png", "Bilder/Seng - Lilla.png", "Bilder/Seng - Standard.png" ],
-      "Navn" : "Dyre seng",
-      "Pris" : 5400,
-      "Type" : "Ting"
-    },
-    "Transport boks" : {
-      "Beskrivelse" : "Flyttebokser er kult da",
-      "Bilder" : [ "Bilder/Transport boks - Blå.png", "Bilder/Transport boks - Rød.png", "Bilder/Transport boks - Grønn.png", "Bilder/Transport boks - Lilla.png", "Bilder/Transport boks - Standard.png" ],
-      "Navn" : "Flytteboks",
-      "Pris" : 60,
-      "Type" : "Ting"
+      "Halsbånd": {
+        "Beskrivelse": "Halsbånd er kult da",
+        "Bilder": ["Bilder/Halsbånd - Blå.png", "Bilder/Halsbånd - Rød.png", "Bilder/Halsbånd - Grønn.png", "Bilder/Halsbånd - Lilla.png", "Bilder/Halsbånd - Standard.png"],
+        "Navn": "Halsbånd",
+        "Pris": 500,
+        "Type": "Ting"
+      },
+      "Svijern": {
+        "Beskrivelse": "Svijern er kult da",
+        "Bilder": ["Bilder/Svijern - Blå.png", "Bilder/Svijern - Rød.png", "Bilder/Svijern - Grønn.png", "Bilder/Svijern - Lilla.png", "Bilder/Svijern - Standard.png"],
+        "Navn": "Svijern",
+        "Pris": 2200,
+        "Type": "Ting"
+      },
+      "Kjøtt": {
+        "Beskrivelse": "Kjøtt er kult da",
+        "Bilder": ["Bilder/Kjøtt - Blå.png", "Bilder/Kjøtt - Rød.png", "Bilder/Kjøtt - Grønn.png", "Bilder/Kjøtt - Lilla.png", "Bilder/Kjøtt - Standard.png"],
+        "Navn": "Kjøtt",
+        "Pris": 900,
+        "Type": "Ting"
+      },
+      "Beroligende_middel": {
+        "Beskrivelse": "Tranquilizers er kult da",
+        "Bilder": ["Bilder/Beroligende middel - Blå.png", "Bilder/Beroligende middel - Rød.png", "Bilder/Beroligende middel - Grønn.png", "Bilder/Beroligende middel - Lilla.png", "Bilder/Beroligende middel - Standard.png"],
+        "Navn": "Tranquilizer",
+        "Pris": 4200,
+        "Type": "Ting"
+      },
+      "Kniv": {
+        "Beskrivelse": "Kniver er kult da",
+        "Bilder": ["Bilder/Kniv - Blå.png", "Bilder/Kniv - Rød.png", "Bilder/Kniv - Grønn.png", "Bilder/Kniv - Lilla.png", "Bilder/Kniv - Standard.png"],
+        "Navn": "Kniv",
+        "Pris": 2400,
+        "Type": "Ting"
+      },
+      "Seng": {
+        "Beskrivelse": "Kniver er kult da",
+        "Bilder": ["Bilder/Seng - Blå.png", "Bilder/Seng - Rød.png", "Bilder/Seng - Grønn.png", "Bilder/Seng - Lilla.png", "Bilder/Seng - Standard.png"],
+        "Navn": "Dyre seng",
+        "Pris": 5400,
+        "Type": "Ting"
+      },
+      "Transport boks": {
+        "Beskrivelse": "Flyttebokser er kult da",
+        "Bilder": ["Bilder/Transport boks - Blå.png", "Bilder/Transport boks - Rød.png", "Bilder/Transport boks - Grønn.png", "Bilder/Transport boks - Lilla.png", "Bilder/Transport boks - Standard.png"],
+        "Navn": "Flytteboks",
+        "Pris": 60,
+        "Type": "Ting"
+      }
     }
   }
-}
 }
