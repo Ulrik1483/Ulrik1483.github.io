@@ -306,6 +306,7 @@ footer{
   .display{
     grid-template-columns: 1fr;
     margin-top: -70%;
+    margin-bottom: -80%;
   }
   nav a{
     font-size: 20px;
@@ -316,9 +317,13 @@ footer{
   .bilderad{
     grid-template-columns: repeat(2, 1fr);
   }
+  #bildecontainer{
+    transform: scale(0.78);
+    margin-left: -2%;
+  }
   .overviewRight{
-    margin-top: -45%;
-    margin-bottom: -2%;
+    margin-top: -50%;
+    margin-bottom: -45%;
     margin-left: -25%;
     margin-right: none;
     transform: scale(0.4);
@@ -341,6 +346,7 @@ footer{
   }
   .display{
     margin-top: -80%;
+    margin-bottom: -90%;
   }
   .description{
     font-size: 20px;
@@ -349,7 +355,16 @@ footer{
     font-size: 16px;
   }
   .dropbtn{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
+  }
+  .dualDisplay{
+    margin-left: -10%;
+  }
+  #bildecontainer{
+    transform: scale(0.5);
+    margin-left: -12%;
+    margin-top: -15%;
+    margin-bottom: -15%;
   }
 }

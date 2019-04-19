@@ -1,2 +1,6 @@
 Banner ratio: 8:1
 Produkt bilder: 1:1
+
+Kjente bugs:
+Når man går inn under på et produkt med en skjerm med en lavere bredde enn 600px, lastes ikke siden med en tilsvarende CSS for `#bildecontainter`.
+Tomrommet under 'footer' på `index.html` på <900px er unødvendig stort.
