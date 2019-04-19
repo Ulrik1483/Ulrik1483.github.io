@@ -169,7 +169,8 @@ nav a:hover{
   margin-bottom:8%;
 }
 .overviewBottom{
-  margin-left: 8%;
+  margin-left: 6%;
+  line-height: 3vh;
 }
 .purchaseButton{
   background-color: gold;
@@ -281,6 +282,9 @@ footer{
   .purchaseButton{
     font-size: 180%;
   }
+  .overviewBottom{
+    margin-right: 10%;
+  } 
 }
 @media (max-width: 1200px) {
   header{
@@ -294,6 +298,9 @@ footer{
     margin-top: -14%;
     margin-bottom: -12%;
   }
+  .overviewBottom{
+    margin-right: 20%;
+  } 
 }
 @media (max-width: 900px) {
   main{
@@ -338,6 +345,9 @@ footer{
     font-size: 280%;
     margin-top: 15%;
   }
+  .overviewBottom{
+    margin-right: 40%;
+  } 
 }
 @media (max-width: 600px) {
   main{
@@ -367,4 +377,7 @@ footer{
     margin-top: -15%;
     margin-bottom: -15%;
   }
+  .overviewBottom{
+    margin-right: 55%;
+  } 
 }
