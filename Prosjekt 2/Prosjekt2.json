@@ -116,7 +116,7 @@
       "Type" : "Ting"
     },
     "Beroligende_middel" : {
-      "Beskrivelse" : "Beroligende middler er kult da",
+      "Beskrivelse" : "Tranquilizers er kult da",
       "Bilder" : [ "Bilder/Beroligende middel - Blå.png", "Bilder/Beroligende middel - Rød.png", "Bilder/Beroligende middel - Grønn.png", "Bilder/Beroligende middel - Lilla.png", "Bilder/Beroligende middel - Standard.png" ],
       "Navn" : "Tranquilizer",
       "Pris" : 4200,
