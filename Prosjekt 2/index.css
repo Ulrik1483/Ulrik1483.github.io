@@ -1,5 +1,6 @@
 html {
   font-size: 100%;
+  overflow-x: hidden;
 }
 
 header {
@@ -229,7 +230,6 @@ footer {
 
 
 /*Dropdown knapper*/
-
 .dropbtn {
   background-color: rgb(230, 230, 230);
   color: black;
@@ -291,6 +291,10 @@ footer {
 
   .bilderad img {
     width: 80%;
+  }
+
+  .overviewBottom {
+    line-height: 4.5vh;
   }
 }
 

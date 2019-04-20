@@ -45,7 +45,7 @@ function visTingPris() {
   tingene.orderByChild("Pris").on("child_added", visVare);
 }
 
-function visReset() {
+function visAlt() {
   allDisplay.innerHTML = "";
   dyrene.on("child_added", visVare);
   tingene.on("child_added", visVare);
