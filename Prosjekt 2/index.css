@@ -23,7 +23,7 @@ main {
 
 nav {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   border-bottom: 2px solid black;
   margin-top: -4px;
 }
@@ -112,6 +112,14 @@ nav a:hover {
   color: black;
   background-color: gold;
   font-size: 28px;
+}
+
+.purchaseLink:hover {
+  background-color: yellow;
+}
+
+.purchaseLink:active {
+  background-color: yellowgreen;
 }
 
 /*alleProdukter*/
@@ -203,6 +211,14 @@ nav a:hover {
   padding: 1vh;
   font-size: 22px;
   margin-top: 2vh;
+}
+
+.purchaseButton:hover {
+  background-color: yellow;
+}
+
+.purchaseButton:active {
+  background-color: yellowgreen;
 }
 
 footer {
@@ -456,7 +472,7 @@ footer {
     margin-right: 55%;
   }
 
-  .bilderad img{
+  .bilderad img {
     padding: 2%;
     transform: scale(0.9)
   }

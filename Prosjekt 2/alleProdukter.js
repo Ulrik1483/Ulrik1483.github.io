@@ -2,6 +2,7 @@
 const database = firebase.database();
 const dyrene = database.ref("Dyrebakken/Varer/Dyr/");
 const tingene = database.ref("Dyrebakken/Varer/Ting/");
+const varer = database.ref("Dyrebakken/Varer/Alt/");
 
 //HTML-Elementer
 const allDisplay = document.querySelector(".allDisplay");
@@ -27,7 +28,7 @@ function visVare(snap) {
 
 function visDyrNavn() {
   allDisplay.innerHTML = "";
-  dyrene.on("child_added", visVare);
+  dyrene.orderByChild("Navn").on("child_added", visVare);
 }
 
 function visDyrPris() {
@@ -37,7 +38,7 @@ function visDyrPris() {
 
 function visTingNavn() {
   allDisplay.innerHTML = "";
-  tingene.on("child_added", visVare);
+  tingene.orderByChild("Navn").on("child_added", visVare);
 }
 
 function visTingPris() {
@@ -45,10 +46,14 @@ function visTingPris() {
   tingene.orderByChild("Pris").on("child_added", visVare);
 }
 
-function visAlt() {
+function visAltPris() {
   allDisplay.innerHTML = "";
-  dyrene.on("child_added", visVare);
-  tingene.on("child_added", visVare);
+  varer.orderByChild("Pris").on("child_added", visVare);
+}
+
+function visAltNavn() {
+  allDisplay.innerHTML = "";
+  varer.orderByChild("Navn").on("child_added", visVare);
 }
 
 //Event-Listeners
