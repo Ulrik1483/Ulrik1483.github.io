@@ -1,4 +1,4 @@
-Banner ratio: 12:1
+Banner ratio: 12:1 (10:1)
 Produkt bilder: 1:1
 
 Kjente bugs:

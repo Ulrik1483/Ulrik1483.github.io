@@ -189,15 +189,13 @@ nav a:hover {
   margin-bottom: auto;
   margin-right: 20%;
   padding: 5%;
-}
-
-.overviewRight {
   margin-bottom: 8%;
 }
 
 .overviewBottom {
-  margin-left: 6%;
+  margin-left: 8%;
   line-height: 3vh;
+  font-size: 80%;
 }
 
 .purchaseButton {
@@ -332,6 +330,7 @@ footer {
 
   .purchaseButton {
     font-size: 180%;
+    margin-top: 4%;
   }
 
   .overviewBottom {
@@ -455,5 +454,10 @@ footer {
 
   .overviewBottom {
     margin-right: 55%;
+  }
+
+  .bilderad img{
+    padding: 2%;
+    transform: scale(0.9)
   }
 }
