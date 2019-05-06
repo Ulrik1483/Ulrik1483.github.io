@@ -19,7 +19,7 @@ function visVare(snap) {
   allDisplay.innerHTML += `
       <section class="productSection">
         <h1>${vare.Navn}</h1>
-        <img src="${vare.Bilder[index]}">
+        <a href="produkt.html?id=${key}&pris=${pris}"><img src="${vare.Bilder[index]}"></a>
         <p class="nyPris" id="egPris">${pris},-</p>
         <a href="produkt.html?id=${key}&pris=${pris}" class="purchaseLink">Se mer</a>
       </section>

@@ -51,7 +51,9 @@ function visVare(snap) {
         <p class="strikeThrough">Før ${orginalPris},-</p>
         <p class="nyPris">${pris},-</p>
         ${bilderad}
-        <div> <button class="purchaseButton">Legg til handlekurven</button> </div>
+        <form>
+          <input type="button" value="Legg til handlekurven" class="purchaseButton" onclick="window.location.href='TFK.html?Navn=${vare.Navn}'"></input>
+        </form>
       </section>
     `;
   overviewBottom.innerHTML += `

@@ -47,6 +47,14 @@ nav a:hover {
   width: 100%;
 }
 
+.webVideo {
+  width: 100%;
+  height: 400px;
+  border: none;
+  margin-top: 2%;
+  margin-bottom: -2%;
+}
+
 .description {
   text-align: center;
   padding-top: 2rem;
@@ -62,6 +70,13 @@ nav a:hover {
   width: 100%;
   border: 1px solid black;
   background-color: beige;
+}
+
+.productSection img:hover {
+  opacity: 0.9;
+  filter: invert(0.01);
+  transform: scale(1.01);
+  filter: drop-shadow(4px 4px 5px black);
 }
 
 .display {
@@ -161,6 +176,10 @@ nav a:hover {
   margin-top: -3rem;
 }
 
+#bildecontainer:hover {
+  filter: drop-shadow(4px 4px 5px black);
+}
+
 .bilderad {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -173,6 +192,14 @@ nav a:hover {
   cursor: pointer;
   border: 1px solid black;
   background-color: beige;
+}
+
+.bilderad img:hover {
+  filter: drop-shadow(0.8px 0.8px 1.2px black);
+}
+
+.bilderad img:active {
+  background-color: rgb(252, 252, 221);
 }
 
 .overviewLeft {
@@ -310,6 +337,7 @@ footer {
   .overviewBottom {
     line-height: 4.5vh;
   }
+
 }
 
 @media (max-width: 1600px) {
@@ -352,6 +380,18 @@ footer {
   .overviewBottom {
     margin-right: 10%;
   }
+
+  #bildecontainer{
+    transform: scale(0.6);
+    margin-left: -8%;
+    margin-bottom: -10%;
+    margin-top: -8%;
+  }
+
+  .overviewLeftTxt{
+    margin-left:1.2%;
+  }
+
 }
 
 @media (max-width: 1200px) {
@@ -371,6 +411,10 @@ footer {
 
   .overviewBottom {
     margin-right: 20%;
+  }
+
+  .overviewLeftTxt{
+    margin-left: 0%;
   }
 }
 
@@ -403,8 +447,10 @@ footer {
   }
 
   #bildecontainer {
-    transform: scale(0.78);
-    margin-left: -2%;
+    transform: scale(0.6);
+    margin-left: -8%;
+    margin-bottom: -8%;
+    margin-top: -10%;
   }
 
   .overviewRight {
