@@ -318,6 +318,12 @@ footer {
   background-color: gray;
 }
 
+.tfk{
+  padding: 2%;
+  font-size: 24vh;
+  font-family: 'Roboto Slab', serif;
+}
+
 /*CSS for forskjellige skjermstørrelser*/
 
 @media (max-width: 1900px) {
