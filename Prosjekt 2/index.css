@@ -47,8 +47,8 @@ nav a:hover {
   width: 100%;
 }
 
-.videoContainer{
-  margin-left:10%;
+.videoContainer {
+  margin-left: 10%;
   margin-right: 10%;
 }
 
@@ -142,17 +142,17 @@ nav a:hover {
   background-color: yellowgreen;
 }
 
-.bildeSlide{
+.bildeSlide {
   margin-top: -10%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.bildeSlide img{
+.bildeSlide img {
   width: 100%;
 }
 
-.bildeCounter{
+.bildeCounter {
   font-family: 'Roboto Slab', serif;
   font-size: 24px;
   transform: translateY(120%) translateX(96%);
@@ -190,8 +190,9 @@ nav a:hover {
   background-size: contain;
   background-position: left;
   background-repeat: no-repeat;
-  transition: 0.5s;
+  transition: 0.05s;
   padding: 20rem;
+  width: 0%;
   margin-right: 20rem;
   border: 1px solid black;
   background-color: beige;
@@ -252,7 +253,7 @@ nav a:hover {
 
 .overviewBottom {
   margin-left: 8%;
-  line-height: 3vh;
+  line-height: 220%;
   font-size: 80%;
 }
 
@@ -299,9 +300,11 @@ footer {
   padding: 18px;
   font-size: 22px;
   border: none;
-  transition: 1s;
+  transition: 0.3s;
   position: relative;
   cursor: pointer;
+  padding-right: 30%;
+  padding-left: 30%;
 }
 
 .dropdown {
@@ -340,7 +343,7 @@ footer {
   background-color: gray;
 }
 
-.tfk{
+.tfk {
   padding: 2%;
   font-size: 24vh;
   font-family: 'Roboto Slab', serif;
@@ -362,11 +365,7 @@ footer {
     width: 80%;
   }
 
-  .overviewBottom {
-    line-height: 4.5vh;
-  }
-
-  .bildeCounter{
+  .bildeCounter {
     transform: translateY(120%) translateX(95%);
   }
 }
@@ -412,15 +411,14 @@ footer {
     margin-right: 10%;
   }
 
-  #bildecontainer{
+  #bildecontainer {
     transform: scale(0.6);
-    margin-left: -8%;
-    margin-bottom: -10%;
+    margin-bottom: -5%;
     margin-top: -8%;
   }
 
-  .overviewLeftTxt{
-    margin-left:1.2%;
+  .overviewLeftTxt {
+    margin-left: 1.2%;
   }
 
 }
@@ -444,11 +442,11 @@ footer {
     margin-right: 20%;
   }
 
-  .overviewLeftTxt{
+  .overviewLeftTxt {
     margin-left: 0%;
   }
 
-  .bildeCounter{
+  .bildeCounter {
     transform: translateY(120%) translateX(93%);
   }
 }
@@ -513,7 +511,7 @@ footer {
     margin-right: 40%;
   }
 
-  .bildeCounter{
+  .bildeCounter {
     transform: translateY(140%) translateX(90%);
   }
 }

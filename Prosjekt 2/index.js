@@ -47,16 +47,16 @@ let bilder = ["Bilder/Slide_bilde_0.png", "Bilder/Slide_bilde_1.png", "Bilder/Sl
 
 function forhåndslastBilder(array) {
   if (!forhåndslastBilder.list) {
-      forhåndslastBilder.list = [];
+    forhåndslastBilder.list = [];
   }
   var list = forhåndslastBilder.list;
   for (var i = 0; i < array.length; i++) {
-      var img = new Image();
-      img.onload = function() {
-          var index = list.indexOf(this);
-      }
-      list.push(img);
-      img.src = array[i];
+    var img = new Image();
+    img.onload = function () {
+      var index = list.indexOf(this);
+    }
+    list.push(img);
+    img.src = array[i];
   }
 }
 
