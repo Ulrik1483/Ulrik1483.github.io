@@ -143,13 +143,21 @@ nav a:hover {
 }
 
 .bildeSlide{
-  margin-top: -5%;
+  margin-top: -10%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .bildeSlide img{
   width: 100%;
+}
+
+.bildeCounter{
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  transform: translateY(120%) translateX(96%);
+  margin: auto;
+  color: white;
 }
 
 /*alleProdukter*/
@@ -358,6 +366,9 @@ footer {
     line-height: 4.5vh;
   }
 
+  .bildeCounter{
+    transform: translateY(120%) translateX(95%);
+  }
 }
 
 @media (max-width: 1600px) {
@@ -436,6 +447,10 @@ footer {
   .overviewLeftTxt{
     margin-left: 0%;
   }
+
+  .bildeCounter{
+    transform: translateY(120%) translateX(93%);
+  }
 }
 
 @media (max-width: 900px) {
@@ -496,6 +511,10 @@ footer {
 
   .overviewBottom {
     margin-right: 40%;
+  }
+
+  .bildeCounter{
+    transform: translateY(140%) translateX(90%);
   }
 }
 

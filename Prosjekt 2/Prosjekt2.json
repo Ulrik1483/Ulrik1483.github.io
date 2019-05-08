@@ -85,6 +85,48 @@
         "Pris": 16400,
         "Type": "Dyr"
       },
+      "Hest": {
+        "Beskrivelse": "Work in progress.",
+        "Bilder": ["Bilder/Hest - Fortapt.png", "Bilder/Hest - Negativ.png", "Bilder/Hest - Positiv.png", "Bilder/Hest - Stolt.png", "Bilder/Hest - Standard.png"],
+        "Navn": "Hest",
+        "Pris": 25000,
+        "Type": "Dyr"
+      },
+      "Ravn": {
+        "Beskrivelse": "Work in progress.",
+        "Bilder": ["Bilder/Ravn - Hat.png", "Bilder/Ravn - Skog.png", "Bilder/Ravn - Syd.png", "Bilder/Ravn - Viking.png", "Bilder/Ravn - Standard.png"],
+        "Navn": "Ravn",
+        "Pris": 8000,
+        "Type": "Dyr"
+      },
+      "Rev": {
+        "Beskrivelse": "Work in progress.",
+        "Bilder": ["Bilder/Rev - Mikkel.png", "Bilder/Rev - Natur.png", "Bilder/Rev - Valentin.png", "Bilder/Rev - Vann.png", "Bilder/Rev - Standard.png"],
+        "Navn": "Rev",
+        "Pris": 16000,
+        "Type": "Dyr"
+      },
+      "Rådyr": {
+        "Beskrivelse": "Work in progress.",
+        "Bilder": ["Bilder/Rådyr - Druid.png", "Bilder/Rådyr - Forelsket.png", "Bilder/Rådyr - Sjenert.png", "Bilder/Rådyr - Trist.png", "Bilder/Rådyr - Standard.png"],
+        "Navn": "Rådyr",
+        "Pris": 19000,
+        "Type": "Dyr"
+      },
+      "Skilpadde": {
+        "Beskrivelse": "Work in progress.",
+        "Bilder": ["Bilder/Skilpadde - Marine.png", "Bilder/Skilpadde - Saturert.png", "Bilder/Skilpadde - Sliten.png", "Bilder/Skilpadde - Varme.png", "Bilder/Skilpadde - Standard.png"],
+        "Navn": "Skilpadde",
+        "Pris": 4600,
+        "Type": "Dyr"
+      },
+      "Tiger": {
+        "Beskrivelse": "Work in progress.",
+        "Bilder": ["Bilder/Tiger - Deppa.png", "Bilder/Tiger - Jungel.png", "Bilder/Tiger - Savanne.png", "Bilder/Tiger - Sol.png", "Bilder/Tiger - Standard.png"],
+        "Navn": "Tiger",
+        "Pris": 35000,
+        "Type": "Dyr"
+      },
       "Pisk": {
         "Beskrivelse": "Pisken er et særdeles viktig tilleggsutstyr for de som har dyr, fordi med den for man nemlig muligheten til å disiplinere dyret med en effektviitet som simpelthen ikke er mulig å oppnå uten en pisk.<br><br>Pisken kommer i forskjellige varianter, der disse differensieres ved deres farge, men felles for alle pisker er at de kan fungere på alle dyr, som er av en størellse større eller tilsvarende det av en hund, så lenge man bruker pisken riktig.",
         "Bilder": ["Bilder/Pisk - Blå.png", "Bilder/Pisk - Rød.png", "Bilder/Pisk - Grønn.png", "Bilder/Pisk - Lilla.png", "Bilder/Pisk - Standard.png"],
@@ -231,6 +273,48 @@
         "Bilder": ["Bilder/Reinsdyr - Blå.png", "Bilder/Reinsdyr - Rød.png", "Bilder/Reinsdyr - Grønn.png", "Bilder/Reinsdyr - Lilla.png", "Bilder/Reinsdyr - Standard.png"],
         "Navn": "Reinsdyr",
         "Pris": 16400,
+        "Type": "Dyr"
+      },
+      "Hest": {
+        "Beskrivelse": "Work in progress.",
+        "Bilder": ["Bilder/Hest - Fortapt.png", "Bilder/Hest - Negativ.png", "Bilder/Hest - Positiv.png", "Bilder/Hest - Stolt.png", "Bilder/Hest - Standard.png"],
+        "Navn": "Hest",
+        "Pris": 25000,
+        "Type": "Dyr"
+      },
+      "Ravn": {
+        "Beskrivelse": "Work in progress.",
+        "Bilder": ["Bilder/Ravn - Hat.png", "Bilder/Ravn - Skog.png", "Bilder/Ravn - Syd.png", "Bilder/Ravn - Viking.png", "Bilder/Ravn - Standard.png"],
+        "Navn": "Ravn",
+        "Pris": 8000,
+        "Type": "Dyr"
+      },
+      "Rev": {
+        "Beskrivelse": "Work in progress.",
+        "Bilder": ["Bilder/Rev - Mikkel.png", "Bilder/Rev - Natur.png", "Bilder/Rev - Valentin.png", "Bilder/Rev - Vann.png", "Bilder/Rev - Standard.png"],
+        "Navn": "Rev",
+        "Pris": 16000,
+        "Type": "Dyr"
+      },
+      "Rådyr": {
+        "Beskrivelse": "Work in progress.",
+        "Bilder": ["Bilder/Rådyr - Druid.png", "Bilder/Rådyr - Forelsket.png", "Bilder/Rådyr - Sjenert.png", "Bilder/Rådyr - Trist.png", "Bilder/Rådyr - Standard.png"],
+        "Navn": "Rådyr",
+        "Pris": 19000,
+        "Type": "Dyr"
+      },
+      "Skilpadde": {
+        "Beskrivelse": "Work in progress.",
+        "Bilder": ["Bilder/Skilpadde - Marine.png", "Bilder/Skilpadde - Saturert.png", "Bilder/Skilpadde - Sliten.png", "Bilder/Skilpadde - Varme.png", "Bilder/Skilpadde - Standard.png"],
+        "Navn": "Skilpadde",
+        "Pris": 4600,
+        "Type": "Dyr"
+      },
+      "Tiger": {
+        "Beskrivelse": "Work in progress.",
+        "Bilder": ["Bilder/Tiger - Deppa.png", "Bilder/Tiger - Jungel.png", "Bilder/Tiger - Savanne.png", "Bilder/Tiger - Sol.png", "Bilder/Tiger - Standard.png"],
+        "Navn": "Tiger",
+        "Pris": 35000,
         "Type": "Dyr"
       }
     },

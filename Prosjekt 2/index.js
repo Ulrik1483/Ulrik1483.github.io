@@ -66,16 +66,18 @@ function runSlides() {
   let bildeSlide = document.querySelector(".bildeSlide");
 
   bildeSlide.innerHTML = `
+    <p class="bildeCounter">${i+1}/${antallBilder}</p>
     <img src="${bilder[i]}"> 
     `;
 
-  i += 1;
+  i++;
 
   if (i == antallBilder) {
     i = 0;
   }
 
   setTimeout(runSlides, 4000);
+
 }
 
 runSlides();
