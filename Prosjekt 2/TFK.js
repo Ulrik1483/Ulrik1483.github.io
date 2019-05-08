@@ -9,7 +9,7 @@ var Navn = url.searchParams.get("Navn");
 //Legger innhold til main
 function visHTML(){
     main.innerHTML =`
-        <article class="tfk">Takk for at du kjøpte en ${Navn} hos oss!</article>
+        <article class="tfk">Takk for at du kjøpte ${Navn} hos oss!</article>
     `;
 }
 visHTML();
