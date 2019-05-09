@@ -46,7 +46,7 @@ function visVare(snap) {
         <div class="overviewContent">varenummer: ${varenummer}</div>
       </section>
       `;
-  overviewRight.innerHTML += `
+  overviewRight.innerHTML = `
       <section>
         <p class="strikeThrough">Før ${orginalPris},-</p>
         <p class="nyPris">${pris},-</p>
@@ -56,7 +56,7 @@ function visVare(snap) {
         </form>
       </section>
     `;
-  overviewBottom.innerHTML += `
+  overviewBottom.innerHTML = `
       <section>
         <h1 class="overviewContent">Produkt informasjon</h1>
         <p class="overviewContent">${vare.Beskrivelse}</p>
