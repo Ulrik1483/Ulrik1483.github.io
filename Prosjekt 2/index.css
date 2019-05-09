@@ -346,7 +346,8 @@ footer {
 
 .tfk {
   padding: 2%;
-  font-size: 24vh;
+  border: 8px solid beige;
+  font-size: 20vh;
   font-family: 'Roboto Slab', serif;
   text-align: center;
 }
