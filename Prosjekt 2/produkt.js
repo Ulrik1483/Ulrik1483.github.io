@@ -52,7 +52,7 @@ function visVare(snap) {
         <p class="nyPris">${pris},-</p>
         ${bilderad}
         <form>
-          <input type="button" value="Legg til handlekurven" class="purchaseButton" onclick="window.location.href='TFK.html?Navn=${vare.Navn}'"></input>
+          <input type="button" value="Legg til handlekurven" class="purchaseButton" onclick="window.location.href='TFK.html?Navn=${vare.Navn}'""></input>
         </form>
       </section>
     `;

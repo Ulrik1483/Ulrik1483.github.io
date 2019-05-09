@@ -86,42 +86,42 @@
         "Type": "Dyr"
       },
       "Hest": {
-        "Beskrivelse": "Work in progress.",
+        "Beskrivelse": "Hest er en dyreart i familien hester, som holdes som husdyr. Alle dagens hesteraser nedstammer fra den utdødde villhesten tarpan. Den ble temmet for cirka 6500 år siden på de eurasiske steppeområdene.<br><br>Hester har en enestående tilpasningsevne og finnes nå som husdyr i nesten alle land. Forvillede hester finnes i Nord- og Sør-Amerika samt Australia, hvor den som regel lever i mindre flokker. I verden er det over 60 millioner hester, fordelt på over 800 raser. De fleste av disse rasene er lokale, og 70 av de er internasjonale, det vil si at de finnes i mer enn 2-3 land.",
         "Bilder": ["Bilder/Hest - Fortapt.png", "Bilder/Hest - Negativ.png", "Bilder/Hest - Positiv.png", "Bilder/Hest - Stolt.png", "Bilder/Hest - Standard.png"],
         "Navn": "Hest",
         "Pris": 25000,
         "Type": "Dyr"
       },
       "Ravn": {
-        "Beskrivelse": "Work in progress.",
+        "Beskrivelse": "Ravn, Corvus corax, art i kråkefamilien. Den største av kråkefuglene og også den største spurvefuglen i verden. Ravnen er helsvart med metallglans og har lange strupefjær og kraftig nebb. Med en lengde på 65-70 cm, vekt på ca. 1,5 kg og et vingespenn på opptil 1,3 m, kan den på avstand forveksles med en rovfugl.<br><br>Ravnen finnes over det meste av Europa, Asia og Nord-Amerika samt i Nord-Afrika, og er en av de mest utbredte fugler på den nordlige halvkule. I alt finnes 11 underarter. I Norge finnes den i skog- og fjelltrakter og i kystfjell stort sett over hele landet. Den norske hekkebestanden har vært relativt stabil i perioden 1996 til 2013, og Norsk ornitologisk forening har beregnet at det hekker mellom 20 000 og 80 000 par i Norge. Ravnen er monogam og paret holder trolig sammen hele livet. Det store kvistreiret plasseres som oftest i en avsats i brattfjell, og er bygd av grove kvister med et indre belegg av finere kvister og foret med jord, ull og hår. Allerede i slutten av mars eller i første del av april legges 4-6 grønnaktige egg med tettstilte brune og grå flekker. Hunnen ruger i 3 uker, og mates av hannen. Ungene mates av begge foreldrene og forlater reiret rundt fem-seks uker gamle, men holder fortsatt sammen med foreldrene ennå flere uker.",
         "Bilder": ["Bilder/Ravn - Hat.png", "Bilder/Ravn - Skog.png", "Bilder/Ravn - Syd.png", "Bilder/Ravn - Viking.png", "Bilder/Ravn - Standard.png"],
         "Navn": "Ravn",
         "Pris": 8000,
         "Type": "Dyr"
       },
       "Rev": {
-        "Beskrivelse": "Work in progress.",
+        "Beskrivelse": "Rever utgjør en stor del av hundefamilien. Hva som skal regnes som rever er et definisjonsspørsmål. Noen mener navnet bør forbeholdes arter i slekten Vulpes, mens andre inkluderer alle arter der 'rev' er blitt en del av navnet. Generelt er rever de minste og mest spinkle medlemmene av hundefamilien. Det finnes 23 arter rever i 4 slekter. Slektene er:<br><br><b>Urocyon:</b> grårever, 2 arter i Nord-Amerika, derav én som er utbredt sørover til det nordligste Sør-Amerika. Slekten regnes som den eldste, den er 4-6 millioner år gammel.<br><b>Otocyon:</b> ørerev, 1 art, O. megalotis, som lever i Afrika.<br><b>Vulpes:</b> rever, 12 arter, finnes naturlig over hele den nordlige halvkule unntatt de mest arktiske strøk, samt i Afrika. Rødreven er kanskje det pattedyr som har videst utbredelse i verden.<br><b>Dusicyon:</b> zorroer, 8 arter som lever i Sør-Amerika. Disse kalles også sør-amerikanske grårever. De er nærmere i slekt med arter i hundeslekten Canis enn med de tre andre reveslektene.",
         "Bilder": ["Bilder/Rev - Mikkel.png", "Bilder/Rev - Natur.png", "Bilder/Rev - Valentin.png", "Bilder/Rev - Vann.png", "Bilder/Rev - Standard.png"],
         "Navn": "Rev",
         "Pris": 16000,
         "Type": "Dyr"
       },
       "Rådyr": {
-        "Beskrivelse": "Work in progress.",
+        "Beskrivelse": "Rådyret er brunrødt til grått med en stor hvit flekk rundt halepartiet, også kjent som speilet. Det har en skulderhøyde på mellom 64–89 cm og veier cirka 15–37 kg. Kroppen er mellom 95–135 cm lang og halen mellom to og fire cm. Hannen, som også kalles råbukk, har et kort, rett og spisst to- til tretagget gevir. Hunnen har ikke gevir og kalles rå eller rågeit. Rådyret har brunsttid i perioden juli–august, og ungene fødes i april–juni. Drektighetstiden varer 294 døgn, hvorav 150 døgn er forsinket innplanting. I Norge fantes det bare en liten bestand rådyr noen steder i Østfold omkring 1900. Siden 1930 har bestanden økt sterkt, og dyret finnes nå over hele landet. Bestanden er tettest sør for Nordland, med spredte streifindivider nord til Finnmark. Arten er fortsatt under spredning. Den totale bestanden er vanskelig å anslå, men det var trolig rundt 150 000 rådyr i Norge i midten av 1990-årene.<br><br>Rådyr forekommer i skogområder, skogkanter og kulturmark over hele Europa. De er utbredt over det meste av verdensdelen, til grenseområdene mot Asia, i vestlige Russland, Ukraina, Kaukasus, nordlige Syria, Irak og Iran. Øst for disse grenseområdene, til Sibir, Kina og Korea, finnes sibirsk rådyr, Capreolus pygargus, som tidligere ble regnet som en underart av det europeiske rådyret.",
         "Bilder": ["Bilder/Rådyr - Druid.png", "Bilder/Rådyr - Forelsket.png", "Bilder/Rådyr - Sjenert.png", "Bilder/Rådyr - Trist.png", "Bilder/Rådyr - Standard.png"],
         "Navn": "Rådyr",
         "Pris": 19000,
         "Type": "Dyr"
       },
       "Skilpadde": {
-        "Beskrivelse": "Work in progress.",
+        "Beskrivelse": "Skilpadder har bred, kort kropp dekket av et hvelvet ryggpanser og et flatt bukpanser. Hos de fleste er panserne fast forbundet på sidene og danner en benkasse. Ryggpanseret består innerst av sammenvokste virvler, brede ribben og en rekke benplater som dannes i lærhuden. Platene i bukpanseret, plastronet, dannes i lærhuden. Øverst er panseret dekket med hornplater, som i sin form og størrelse ikke svarer til benplatene.<br><br>Skilpaddene har lite hode og små øyne med øyelokk. Kjevene hos nålevende arter mangler tenner og er dekket med skarpe hornplater. Halsen er lang og lettbevegelig, mens halen er kort.<br><br>Hos landskilpadder er lemmene tykke og klumpete, hos havskilpadder lange og luffeformede. Hodet, halsen, halen og lemmene kan hos de fleste skilpadder trekkes inn under skjoldene når det er fare på ferde. De kroppsdelene som ikke er omgitt av skjoldet, har en bløt hud med hornskjell. Hudkjertler er fåtallige.<br><br>Hos de fleste skilpadder er spiserøret innvendig besatt med bakutrettede, spisse hornpapiller.<br><br>Hos planteetende skilpadder er tarmen lang. Som andre krypdyr er skilpaddene vekselvarme, og veggen mellom hjertekamrene er gjennombrutt. Lungene er store, tynnveggede og svampete. De er fastvokst til skallet, og åndedrettet foregår ved hjelp av én stor, flat utåndingsmuskel og to innåndingsmuskler.",
         "Bilder": ["Bilder/Skilpadde - Marine.png", "Bilder/Skilpadde - Saturert.png", "Bilder/Skilpadde - Sliten.png", "Bilder/Skilpadde - Varme.png", "Bilder/Skilpadde - Standard.png"],
         "Navn": "Skilpadde",
         "Pris": 4600,
         "Type": "Dyr"
       },
       "Tiger": {
-        "Beskrivelse": "Work in progress.",
+        "Beskrivelse": "Tigeren forekommer i vekslende leveområder, fra tropisk regnskog, snødekket barskog og løvskog og mangroveskog til tørrere skogtyper. Opprinnelig var tigeren utbredt over store deler av Asia. Mot nord går den langt opp i Sibir og Mandsjuria, mot vest til Det kaspiske hav og Kaukasus, mot øst til Stillehavet, og den forekommer også på flere av øyene i det sørøstlige Asia. Den er nå bare flekkvis utbredt og regnes som utryddelsestruet. Trolig finnes mindre enn 7000 dyr i vill tilstand, hvorav de fleste i India.",
         "Bilder": ["Bilder/Tiger - Deppa.png", "Bilder/Tiger - Jungel.png", "Bilder/Tiger - Savanne.png", "Bilder/Tiger - Sol.png", "Bilder/Tiger - Standard.png"],
         "Navn": "Tiger",
         "Pris": 35000,
@@ -277,42 +277,42 @@
         "Type": "Dyr"
       },
       "Hest": {
-        "Beskrivelse": "Work in progress.",
+        "Beskrivelse": "Hest er en dyreart i familien hester, som holdes som husdyr. Alle dagens hesteraser nedstammer fra den utdødde villhesten tarpan. Den ble temmet for cirka 6500 år siden på de eurasiske steppeområdene.<br><br>Hester har en enestående tilpasningsevne og finnes nå som husdyr i nesten alle land. Forvillede hester finnes i Nord- og Sør-Amerika samt Australia, hvor den som regel lever i mindre flokker. I verden er det over 60 millioner hester, fordelt på over 800 raser. De fleste av disse rasene er lokale, og 70 av de er internasjonale, det vil si at de finnes i mer enn 2-3 land.",
         "Bilder": ["Bilder/Hest - Fortapt.png", "Bilder/Hest - Negativ.png", "Bilder/Hest - Positiv.png", "Bilder/Hest - Stolt.png", "Bilder/Hest - Standard.png"],
         "Navn": "Hest",
         "Pris": 25000,
         "Type": "Dyr"
       },
       "Ravn": {
-        "Beskrivelse": "Work in progress.",
+        "Beskrivelse": "Ravn, Corvus corax, art i kråkefamilien. Den største av kråkefuglene og også den største spurvefuglen i verden. Ravnen er helsvart med metallglans og har lange strupefjær og kraftig nebb. Med en lengde på 65-70 cm, vekt på ca. 1,5 kg og et vingespenn på opptil 1,3 m, kan den på avstand forveksles med en rovfugl.<br><br>Ravnen finnes over det meste av Europa, Asia og Nord-Amerika samt i Nord-Afrika, og er en av de mest utbredte fugler på den nordlige halvkule. I alt finnes 11 underarter. I Norge finnes den i skog- og fjelltrakter og i kystfjell stort sett over hele landet. Den norske hekkebestanden har vært relativt stabil i perioden 1996 til 2013, og Norsk ornitologisk forening har beregnet at det hekker mellom 20 000 og 80 000 par i Norge. Ravnen er monogam og paret holder trolig sammen hele livet. Det store kvistreiret plasseres som oftest i en avsats i brattfjell, og er bygd av grove kvister med et indre belegg av finere kvister og foret med jord, ull og hår. Allerede i slutten av mars eller i første del av april legges 4-6 grønnaktige egg med tettstilte brune og grå flekker. Hunnen ruger i 3 uker, og mates av hannen. Ungene mates av begge foreldrene og forlater reiret rundt fem-seks uker gamle, men holder fortsatt sammen med foreldrene ennå flere uker.",
         "Bilder": ["Bilder/Ravn - Hat.png", "Bilder/Ravn - Skog.png", "Bilder/Ravn - Syd.png", "Bilder/Ravn - Viking.png", "Bilder/Ravn - Standard.png"],
         "Navn": "Ravn",
         "Pris": 8000,
         "Type": "Dyr"
       },
       "Rev": {
-        "Beskrivelse": "Work in progress.",
+        "Beskrivelse": "Rever utgjør en stor del av hundefamilien. Hva som skal regnes som rever er et definisjonsspørsmål. Noen mener navnet bør forbeholdes arter i slekten Vulpes, mens andre inkluderer alle arter der 'rev' er blitt en del av navnet. Generelt er rever de minste og mest spinkle medlemmene av hundefamilien. Det finnes 23 arter rever i 4 slekter. Slektene er:<br><br><b>Urocyon:</b> grårever, 2 arter i Nord-Amerika, derav én som er utbredt sørover til det nordligste Sør-Amerika. Slekten regnes som den eldste, den er 4-6 millioner år gammel.<br><b>Otocyon:</b> ørerev, 1 art, O. megalotis, som lever i Afrika.<br><b>Vulpes:</b> rever, 12 arter, finnes naturlig over hele den nordlige halvkule unntatt de mest arktiske strøk, samt i Afrika. Rødreven er kanskje det pattedyr som har videst utbredelse i verden.<br><b>Dusicyon:</b> zorroer, 8 arter som lever i Sør-Amerika. Disse kalles også sør-amerikanske grårever. De er nærmere i slekt med arter i hundeslekten Canis enn med de tre andre reveslektene.",
         "Bilder": ["Bilder/Rev - Mikkel.png", "Bilder/Rev - Natur.png", "Bilder/Rev - Valentin.png", "Bilder/Rev - Vann.png", "Bilder/Rev - Standard.png"],
         "Navn": "Rev",
         "Pris": 16000,
         "Type": "Dyr"
       },
       "Rådyr": {
-        "Beskrivelse": "Work in progress.",
+        "Beskrivelse": "Rådyret er brunrødt til grått med en stor hvit flekk rundt halepartiet, også kjent som speilet. Det har en skulderhøyde på mellom 64–89 cm og veier cirka 15–37 kg. Kroppen er mellom 95–135 cm lang og halen mellom to og fire cm. Hannen, som også kalles råbukk, har et kort, rett og spisst to- til tretagget gevir. Hunnen har ikke gevir og kalles rå eller rågeit. Rådyret har brunsttid i perioden juli–august, og ungene fødes i april–juni. Drektighetstiden varer 294 døgn, hvorav 150 døgn er forsinket innplanting. I Norge fantes det bare en liten bestand rådyr noen steder i Østfold omkring 1900. Siden 1930 har bestanden økt sterkt, og dyret finnes nå over hele landet. Bestanden er tettest sør for Nordland, med spredte streifindivider nord til Finnmark. Arten er fortsatt under spredning. Den totale bestanden er vanskelig å anslå, men det var trolig rundt 150 000 rådyr i Norge i midten av 1990-årene.<br><br>Rådyr forekommer i skogområder, skogkanter og kulturmark over hele Europa. De er utbredt over det meste av verdensdelen, til grenseområdene mot Asia, i vestlige Russland, Ukraina, Kaukasus, nordlige Syria, Irak og Iran. Øst for disse grenseområdene, til Sibir, Kina og Korea, finnes sibirsk rådyr, Capreolus pygargus, som tidligere ble regnet som en underart av det europeiske rådyret.",
         "Bilder": ["Bilder/Rådyr - Druid.png", "Bilder/Rådyr - Forelsket.png", "Bilder/Rådyr - Sjenert.png", "Bilder/Rådyr - Trist.png", "Bilder/Rådyr - Standard.png"],
         "Navn": "Rådyr",
         "Pris": 19000,
         "Type": "Dyr"
       },
       "Skilpadde": {
-        "Beskrivelse": "Work in progress.",
+        "Beskrivelse": "Skilpadder har bred, kort kropp dekket av et hvelvet ryggpanser og et flatt bukpanser. Hos de fleste er panserne fast forbundet på sidene og danner en benkasse. Ryggpanseret består innerst av sammenvokste virvler, brede ribben og en rekke benplater som dannes i lærhuden. Platene i bukpanseret, plastronet, dannes i lærhuden. Øverst er panseret dekket med hornplater, som i sin form og størrelse ikke svarer til benplatene.<br><br>Skilpaddene har lite hode og små øyne med øyelokk. Kjevene hos nålevende arter mangler tenner og er dekket med skarpe hornplater. Halsen er lang og lettbevegelig, mens halen er kort.<br><br>Hos landskilpadder er lemmene tykke og klumpete, hos havskilpadder lange og luffeformede. Hodet, halsen, halen og lemmene kan hos de fleste skilpadder trekkes inn under skjoldene når det er fare på ferde. De kroppsdelene som ikke er omgitt av skjoldet, har en bløt hud med hornskjell. Hudkjertler er fåtallige.<br><br>Hos de fleste skilpadder er spiserøret innvendig besatt med bakutrettede, spisse hornpapiller.<br><br>Hos planteetende skilpadder er tarmen lang. Som andre krypdyr er skilpaddene vekselvarme, og veggen mellom hjertekamrene er gjennombrutt. Lungene er store, tynnveggede og svampete. De er fastvokst til skallet, og åndedrettet foregår ved hjelp av én stor, flat utåndingsmuskel og to innåndingsmuskler.",
         "Bilder": ["Bilder/Skilpadde - Marine.png", "Bilder/Skilpadde - Saturert.png", "Bilder/Skilpadde - Sliten.png", "Bilder/Skilpadde - Varme.png", "Bilder/Skilpadde - Standard.png"],
         "Navn": "Skilpadde",
         "Pris": 4600,
         "Type": "Dyr"
       },
       "Tiger": {
-        "Beskrivelse": "Work in progress.",
+        "Beskrivelse": "Tigeren forekommer i vekslende leveområder, fra tropisk regnskog, snødekket barskog og løvskog og mangroveskog til tørrere skogtyper. Opprinnelig var tigeren utbredt over store deler av Asia. Mot nord går den langt opp i Sibir og Mandsjuria, mot vest til Det kaspiske hav og Kaukasus, mot øst til Stillehavet, og den forekommer også på flere av øyene i det sørøstlige Asia. Den er nå bare flekkvis utbredt og regnes som utryddelsestruet. Trolig finnes mindre enn 7000 dyr i vill tilstand, hvorav de fleste i India.",
         "Bilder": ["Bilder/Tiger - Deppa.png", "Bilder/Tiger - Jungel.png", "Bilder/Tiger - Savanne.png", "Bilder/Tiger - Sol.png", "Bilder/Tiger - Standard.png"],
         "Navn": "Tiger",
         "Pris": 35000,

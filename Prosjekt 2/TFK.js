@@ -6,6 +6,8 @@ var url_string = window.location.href
 var url = new URL(url_string);
 var Navn = url.searchParams.get("Navn");
 
+Navn = Navn.toLowerCase();
+
 //Legger innhold til main
 function visHTML(){
     main.innerHTML =`

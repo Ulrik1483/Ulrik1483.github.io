@@ -76,7 +76,7 @@ function runSlides() {
     i = 0;
   }
 
-  setTimeout(runSlides, 10000);
+  setTimeout(runSlides, 3000);
 
 }
 
