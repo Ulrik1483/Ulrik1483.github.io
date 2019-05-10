@@ -9,9 +9,9 @@ var Navn = url.searchParams.get("Navn");
 Navn = Navn.toLowerCase();
 
 //Legger innhold til main
-function visHTML(){
-    main.innerHTML =`
-        <article class="tfk">Takk for at du kjøpte ${Navn} hos oss!</article>
+function visHTML() {
+    main.innerHTML = `
+        <article class="tfk">Takk for at du kjøpte ${Navn} hos oss!<br>Regningen kommer i posten</article>
     `;
 }
 visHTML();
