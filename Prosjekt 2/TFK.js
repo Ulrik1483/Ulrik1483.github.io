@@ -11,7 +11,7 @@ Navn = Navn.toLowerCase();
 //Legger innhold til main
 function visHTML() {
     main.innerHTML = `
-        <article class="tfk">Takk for at du kjøpte ${Navn} hos oss!<br>Regningen kommer i posten</article>
+        <article class="tfk">Takk for at du kjøpte ${Navn} hos oss!</article>
     `;
 }
 visHTML();
