@@ -1,54 +1,69 @@
-h1{
+h1 {
   padding-left: 28%;
 }
-#system{
+
+#system {
   display: grid;
   grid-template-columns: repeat(18, 1fr);
-  grid-gap:0.8px;
+  grid-gap: 0.8px;
 }
-#info>p{
+
+#info>p {
   font-size: 13px;
-  padding-top:18%;
+  padding-top: 18%;
 }
-div>div{
+
+div>div {
   border: 1px solid black;
 }
-article{
+
+article {
   padding-top: 5px;
   font-size: 20px;
   text-align: center;
 }
-p{
+
+p {
   font-size: 12px;
   text-align: center;
 }
-.ikke-metall{
-  background-color:beige;
+
+.ikke-metall {
+  background-color: beige;
 }
-.halvmetall{
-  background-color:lightgreen;
+
+.halvmetall {
+  background-color: lightgreen;
 }
-.metall{
-  background-color:lightblue;
+
+.metall {
+  background-color: lightblue;
 }
-.NOP{
+
+.NOP {
   opacity: 0;
 }
-#en{
+
+#en {
   grid-column: 2/18;
 }
-#tre{
+
+#tre {
   grid-column: 3/13;
 }
-#to_1{
+
+#to_1 {
   grid-column: 3/6;
 }
-#to_2{
+
+#to_2 {
   grid-column: 9/13;
 }
-#fire{
+
+#fire {
   grid-column: 1/4;
 }
-#alt{
+
+#alt {
   grid-column: 1/19;
 }

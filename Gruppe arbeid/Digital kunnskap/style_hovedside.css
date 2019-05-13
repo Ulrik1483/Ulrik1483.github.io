@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(175, 175, 175);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  text-align: center;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.pagelink {
+  background-color: rgb(161, 134, 213);
+  padding: 20px;
+}
+
+
+@media (max-width: 1400px) {
+  .main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1000px) {
+  .main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

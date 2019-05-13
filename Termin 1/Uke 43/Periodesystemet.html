@@ -1,143 +1,514 @@
 <!DOCTYPE html>
 <html lang="no" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Periodesystemet</title>
-    <link rel="stylesheet" href="Periodesystemet.css">
-  </head>
-  <body>
-    <h1>Grunnstoffenes Periodesystem</h1>
-    <div id="system">
-      <div class="ikke-metall"><article>1  H</article><p>Hydrogen</p></div>
-      <div class="NOP" id="en"></div>
-      <div class="ikke-metall"><article>2 He</article><p>Helium</p></div>
-      <div class="metall"><article>3  Li</article><p>Litium</p></div>
-      <div class="metall"><article>4  Be</article><p>Beryllium</p></div>
-      <div class="NOP" id="to_1"></div>
-      <div class="ikke-metall" id="info"><p><b>Ikke-<br>metall</b></p></div>
-      <div class="halvmetall" id="info"><p><b>Halvmetall</b></p></div>
-      <div class="metall" id="info"><p><b>Metall</b></p></div>
-      <div class="NOP" id="to_2"></div>
-      <div class="halvmetall"><article>5  B</article><p>Bor</p></div>
-      <div class="ikke-metall"><article>6 C</article><p>Karbon</p></div>
-      <div class="ikke-metall"><article>7 N</article><p>Nitrogen</p></div>
-      <div class="ikke-metall"><article>8 O</article><p>Oksygen</p></div>
-      <div class="ikke-metall"><article>9 F</article><p>Fluor</p></div>
-      <div class="ikke-metall"><article>10  Ne</article><p>Neon</p></div>
-      <div class="metall"><article>11 Na</article><p>Natrium</p></div>
-      <div class="metall"><article>12 Mg</article><p>Magnesium</p></div>
-      <div class="NOP" id="tre"></div>
-      <div class="metall"><article>13 Al</article><p>Aluminium</p></div>
-      <div class="halvmetall"><article>14 Si</article><p>Silisium</p></div>
-      <div class="ikke-metall"><article>15  P</article><p>Fosfor</p></div>
-      <div class="ikke-metall"><article>16  S</article><p>Svovel</p></div>
-      <div class="ikke-metall"><article>17  Cl</article><p>Klor</p></div>
-      <div class="ikke-metall"><article>18  Ar</article><p>Argon</p></div>
-      <div class="metall"><article>19 K</article><p>Kalium</p></div>
-      <div class="metall"><article>20 Ca</article><p>Kalsium</p></div>
-      <div class="metall"><article>21 Sc</article><p>Scandium</p></div>
-      <div class="metall"><article>22 Ti</article><p>Titan</p></div>
-      <div class="metall"><article>23 V</article><p>Vanadium</p></div>
-      <div class="metall"><article>24 Cr</article><p>Krom</p></div>
-      <div class="metall"><article>25 Mn</article><p>Mangan</p></div>
-      <div class="metall"><article>26 Fe</article><p>Jern</p></div>
-      <div class="metall"><article>27 Co</article><p>Kobolt</p></div>
-      <div class="metall"><article>28 Ni</article><p>Nikkel</p></div>
-      <div class="metall"><article>29 Cu</article><p>Kobber</p></div>
-      <div class="metall"><article>30 Zn</article><p>Sink</p></div>
-      <div class="metall"><article>31 Ga</article><p>Gallium</p></div>
-      <div class="halvmetall"><article>32 Ge</article><p>Germanium</p></div>
-      <div class="halvmetall"><article>33 As</article><p>Arsen</p></div>
-      <div class="ikke-metall"><article>34  Se</article><p>Selen</p></div>
-      <div class="ikke-metall"><article>35  Br</article><p>Brom</p></div>
-      <div class="ikke-metall"><article>36  Kr</article><p>Krypton</p></div>
-      <div class="metall"><article>37 Rb</article><p>Rubidium</p></div>
-      <div class="metall"><article>38 Sr</article><p>Strontium</p></div>
-      <div class="metall"><article>39 Y</article><p>Yttrium</p></div>
-      <div class="metall"><article>40 Zr</article><p>Zirkonium</p></div>
-      <div class="metall"><article>41 Nb</article><p>Niob</p></div>
-      <div class="metall"><article>42 Mo</article><p>Molybden</p></div>
-      <div class="metall"><article>43 Tc</article><p>Technetium</p></div>
-      <div class="metall"><article>44 Ru</article><p>Ruthenium</p></div>
-      <div class="metall"><article>45 Rh</article><p>Rhodium</p></div>
-      <div class="metall"><article>46 Pd</article><p>Palladium</p></div>
-      <div class="metall"><article>47 Ag</article><p>Sølv</p></div>
-      <div class="metall"><article>48 Cd</article><p>Kadmium</p></div>
-      <div class="metall"><article>49 In</article><p>Indium</p></div>
-      <div class="metall"><article>50 Sn</article><p>Tinn</p></div>
-      <div class="halvmetall"><article>51 Sb</article><p>Antimon</p></div>
-      <div class="halvmetall"><article>52 Te</article><p>Tellur</p></div>
-      <div class="ikke-metall"><article>53  I</article><p>Jod</p></div>
-      <div class="ikke-metall"><article>54  Xe</article><p>Xenon</p></div>
-      <div class="metall"><article>55 Cs</article><p>Cesium</p></div>
-      <div class="metall"><article>56 Ba</article><p>Barium</p></div>
-      <div class="metall"><article>57-71</article><p>Lantanoider</p></div>
-      <div class="metall"><article>72 Hf</article><p>Hafnium</p></div>
-      <div class="metall"><article>73 Ta</article><p>Tantal</p></div>
-      <div class="metall"><article>74 W</article><p>Wolfram</p></div>
-      <div class="metall"><article>75 Re</article><p>Rhenium</p></div>
-      <div class="metall"><article>76 Os</article><p>Osmium</p></div>
-      <div class="metall"><article>77 Ir</article><p>Iridium</p></div>
-      <div class="metall"><article>78 Pt</article><p>Platina</p></div>
-      <div class="metall"><article>79 Au</article><p>Gull</p></div>
-      <div class="metall"><article>80 Hg</article><p>Kvikksølv</p></div>
-      <div class="metall"><article>81 Tl</article><p>Thallium</p></div>
-      <div class="metall"><article>82 Pb</article><p>Bly</p></div>
-      <div class="metall"><article>83 Bi</article><p>Vismut</p></div>
-      <div class="metall"><article>84 Po</article><p>Polonium</p></div>
-      <div class="ikke-metall"><article>85  At</article><p>Astat</p></div>
-      <div class="ikke-metall"><article>86  Rn</article><p>Radon</p></div>
-      <div class="metall"><article>87 Fr</article><p>Francium</p></div>
-      <div class="metall"><article>88 Ra</article><p>Radium</p></div>
-      <div class="metall"><article>89-103</article><p>Aktinoider</p></div>
-      <div class="metall"><article>104  Rf</article><p>Rutherfordium</p></div>
-      <div class="metall"><article>105  Db</article><p>Dubnium</p></div>
-      <div class="metall"><article>106  Sg</article><p>Seaborgium</p></div>
-      <div class="metall"><article>107  Bh</article><p>Bohrium</p></div>
-      <div class="metall"><article>108  Hs</article><p>Hassium</p></div>
-      <div class="metall"><article>109  Mt</article><p>Meitnerium</p></div>
-      <div class="metall"><article>110  Ds</article><p>Darmstadtium</p></div>
-      <div class="metall"><article>111  Rg</article><p>Røntgenium</p></div>
-      <div class="metall"><article>112  Cn</article><p>Copernicium</p></div>
-      <div class="metall"><article>113  Nh</article><p>Nihonium</p></div>
-      <div class="metall"><article>114  Fl</article><p>Flerovium</p></div>
-      <div class="metall"><article>115  Mc</article><p>Moscovium</p></div>
-      <div class="metall"><article>116  Lv</article><p>Livermorium</p></div>
-      <div class="metall"><article>117  Ts</article><p>Tenness</p></div>
-      <div class="metall"><article>118  Og</article><p>Oganesson</p></div>
-      <div class="NOP" id="alt"><p>Kjemi</p></div>
-      <div class="NOP" id="fire"></div>
-      <div class="metall"><article>57 La</article><p>Lantan</p></div>
-      <div class="metall"><article>58 Ce</article><p>Cerium</p></div>
-      <div class="metall"><article>59 Pr</article><p>Praseodym</p></div>
-      <div class="metall"><article>60 Nd</article><p>Neodym</p></div>
-      <div class="metall"><article>61 Pm</article><p>Promethium</p></div>
-      <div class="metall"><article>62 Sm</article><p>Samarium</p></div>
-      <div class="metall"><article>63 Eu</article><p>Europium</p></div>
-      <div class="metall"><article>64 Gd</article><p>Gadolinium</p></div>
-      <div class="metall"><article>65 Tb</article><p>Terbium</p></div>
-      <div class="metall"><article>66 Dy</article><p>Dysprosium</p></div>
-      <div class="metall"><article>67 Ho</article><p>Holmium</p></div>
-      <div class="metall"><article>68 Er</article><p>Erbium</p></div>
-      <div class="metall"><article>69 Tm</article><p>Thulium</p></div>
-      <div class="metall"><article>70 Yb</article><p>Ytterbium</p></div>
-      <div class="metall"><article>71 Lu</article><p>Lutetium</p></div>
-      <div class="NOP" id="fire"></div>
-      <div class="metall"><article>89 Ac</article><p>Actinium</p></div>
-      <div class="metall"><article>90 Th</article><p>Thorium</p></div>
-      <div class="metall"><article>91 Pa</article><p>Protactinium</p></div>
-      <div class="metall"><article>92 U</article><p>Uran</p></div>
-      <div class="metall"><article>93 Np</article><p>Neptunium</p></div>
-      <div class="metall"><article>94 Pu</article><p>Plutonium</p></div>
-      <div class="metall"><article>95 Am</article><p>Americium</p></div>
-      <div class="metall"><article>96 Cm</article><p>Curium</p></div>
-      <div class="metall"><article>97 Bk</article><p>Berkelium</p></div>
-      <div class="metall"><article>98 Cf</article><p>Californium</p></div>
-      <div class="metall"><article>99 Es</article><p>Einsteinium</p></div>
-      <div class="metall"><article>100  Fm</article><p>Fermium</p></div>
-      <div class="metall"><article>101  Md</article><p>Mendelevium</p></div>
-      <div class="metall"><article>102  No</article><p>Nobelium</p></div>
-      <div class="metall"><article>103  Lr</article><p>Lawrencium</p></div>
+
+<head>
+  <meta charset="utf-8">
+  <title>Periodesystemet</title>
+  <link rel="stylesheet" href="Periodesystemet.css">
+</head>
+
+<body>
+  <h1>Grunnstoffenes Periodesystem</h1>
+  <div id="system">
+    <div class="ikke-metall">
+      <article>1 H</article>
+      <p>Hydrogen</p>
     </div>
-  </body>
+    <div class="NOP" id="en"></div>
+    <div class="ikke-metall">
+      <article>2 He</article>
+      <p>Helium</p>
+    </div>
+    <div class="metall">
+      <article>3 Li</article>
+      <p>Litium</p>
+    </div>
+    <div class="metall">
+      <article>4 Be</article>
+      <p>Beryllium</p>
+    </div>
+    <div class="NOP" id="to_1"></div>
+    <div class="ikke-metall" id="info">
+      <p><b>Ikke-<br>metall</b></p>
+    </div>
+    <div class="halvmetall" id="info">
+      <p><b>Halvmetall</b></p>
+    </div>
+    <div class="metall" id="info">
+      <p><b>Metall</b></p>
+    </div>
+    <div class="NOP" id="to_2"></div>
+    <div class="halvmetall">
+      <article>5 B</article>
+      <p>Bor</p>
+    </div>
+    <div class="ikke-metall">
+      <article>6 C</article>
+      <p>Karbon</p>
+    </div>
+    <div class="ikke-metall">
+      <article>7 N</article>
+      <p>Nitrogen</p>
+    </div>
+    <div class="ikke-metall">
+      <article>8 O</article>
+      <p>Oksygen</p>
+    </div>
+    <div class="ikke-metall">
+      <article>9 F</article>
+      <p>Fluor</p>
+    </div>
+    <div class="ikke-metall">
+      <article>10 Ne</article>
+      <p>Neon</p>
+    </div>
+    <div class="metall">
+      <article>11 Na</article>
+      <p>Natrium</p>
+    </div>
+    <div class="metall">
+      <article>12 Mg</article>
+      <p>Magnesium</p>
+    </div>
+    <div class="NOP" id="tre"></div>
+    <div class="metall">
+      <article>13 Al</article>
+      <p>Aluminium</p>
+    </div>
+    <div class="halvmetall">
+      <article>14 Si</article>
+      <p>Silisium</p>
+    </div>
+    <div class="ikke-metall">
+      <article>15 P</article>
+      <p>Fosfor</p>
+    </div>
+    <div class="ikke-metall">
+      <article>16 S</article>
+      <p>Svovel</p>
+    </div>
+    <div class="ikke-metall">
+      <article>17 Cl</article>
+      <p>Klor</p>
+    </div>
+    <div class="ikke-metall">
+      <article>18 Ar</article>
+      <p>Argon</p>
+    </div>
+    <div class="metall">
+      <article>19 K</article>
+      <p>Kalium</p>
+    </div>
+    <div class="metall">
+      <article>20 Ca</article>
+      <p>Kalsium</p>
+    </div>
+    <div class="metall">
+      <article>21 Sc</article>
+      <p>Scandium</p>
+    </div>
+    <div class="metall">
+      <article>22 Ti</article>
+      <p>Titan</p>
+    </div>
+    <div class="metall">
+      <article>23 V</article>
+      <p>Vanadium</p>
+    </div>
+    <div class="metall">
+      <article>24 Cr</article>
+      <p>Krom</p>
+    </div>
+    <div class="metall">
+      <article>25 Mn</article>
+      <p>Mangan</p>
+    </div>
+    <div class="metall">
+      <article>26 Fe</article>
+      <p>Jern</p>
+    </div>
+    <div class="metall">
+      <article>27 Co</article>
+      <p>Kobolt</p>
+    </div>
+    <div class="metall">
+      <article>28 Ni</article>
+      <p>Nikkel</p>
+    </div>
+    <div class="metall">
+      <article>29 Cu</article>
+      <p>Kobber</p>
+    </div>
+    <div class="metall">
+      <article>30 Zn</article>
+      <p>Sink</p>
+    </div>
+    <div class="metall">
+      <article>31 Ga</article>
+      <p>Gallium</p>
+    </div>
+    <div class="halvmetall">
+      <article>32 Ge</article>
+      <p>Germanium</p>
+    </div>
+    <div class="halvmetall">
+      <article>33 As</article>
+      <p>Arsen</p>
+    </div>
+    <div class="ikke-metall">
+      <article>34 Se</article>
+      <p>Selen</p>
+    </div>
+    <div class="ikke-metall">
+      <article>35 Br</article>
+      <p>Brom</p>
+    </div>
+    <div class="ikke-metall">
+      <article>36 Kr</article>
+      <p>Krypton</p>
+    </div>
+    <div class="metall">
+      <article>37 Rb</article>
+      <p>Rubidium</p>
+    </div>
+    <div class="metall">
+      <article>38 Sr</article>
+      <p>Strontium</p>
+    </div>
+    <div class="metall">
+      <article>39 Y</article>
+      <p>Yttrium</p>
+    </div>
+    <div class="metall">
+      <article>40 Zr</article>
+      <p>Zirkonium</p>
+    </div>
+    <div class="metall">
+      <article>41 Nb</article>
+      <p>Niob</p>
+    </div>
+    <div class="metall">
+      <article>42 Mo</article>
+      <p>Molybden</p>
+    </div>
+    <div class="metall">
+      <article>43 Tc</article>
+      <p>Technetium</p>
+    </div>
+    <div class="metall">
+      <article>44 Ru</article>
+      <p>Ruthenium</p>
+    </div>
+    <div class="metall">
+      <article>45 Rh</article>
+      <p>Rhodium</p>
+    </div>
+    <div class="metall">
+      <article>46 Pd</article>
+      <p>Palladium</p>
+    </div>
+    <div class="metall">
+      <article>47 Ag</article>
+      <p>Sølv</p>
+    </div>
+    <div class="metall">
+      <article>48 Cd</article>
+      <p>Kadmium</p>
+    </div>
+    <div class="metall">
+      <article>49 In</article>
+      <p>Indium</p>
+    </div>
+    <div class="metall">
+      <article>50 Sn</article>
+      <p>Tinn</p>
+    </div>
+    <div class="halvmetall">
+      <article>51 Sb</article>
+      <p>Antimon</p>
+    </div>
+    <div class="halvmetall">
+      <article>52 Te</article>
+      <p>Tellur</p>
+    </div>
+    <div class="ikke-metall">
+      <article>53 I</article>
+      <p>Jod</p>
+    </div>
+    <div class="ikke-metall">
+      <article>54 Xe</article>
+      <p>Xenon</p>
+    </div>
+    <div class="metall">
+      <article>55 Cs</article>
+      <p>Cesium</p>
+    </div>
+    <div class="metall">
+      <article>56 Ba</article>
+      <p>Barium</p>
+    </div>
+    <div class="metall">
+      <article>57-71</article>
+      <p>Lantanoider</p>
+    </div>
+    <div class="metall">
+      <article>72 Hf</article>
+      <p>Hafnium</p>
+    </div>
+    <div class="metall">
+      <article>73 Ta</article>
+      <p>Tantal</p>
+    </div>
+    <div class="metall">
+      <article>74 W</article>
+      <p>Wolfram</p>
+    </div>
+    <div class="metall">
+      <article>75 Re</article>
+      <p>Rhenium</p>
+    </div>
+    <div class="metall">
+      <article>76 Os</article>
+      <p>Osmium</p>
+    </div>
+    <div class="metall">
+      <article>77 Ir</article>
+      <p>Iridium</p>
+    </div>
+    <div class="metall">
+      <article>78 Pt</article>
+      <p>Platina</p>
+    </div>
+    <div class="metall">
+      <article>79 Au</article>
+      <p>Gull</p>
+    </div>
+    <div class="metall">
+      <article>80 Hg</article>
+      <p>Kvikksølv</p>
+    </div>
+    <div class="metall">
+      <article>81 Tl</article>
+      <p>Thallium</p>
+    </div>
+    <div class="metall">
+      <article>82 Pb</article>
+      <p>Bly</p>
+    </div>
+    <div class="metall">
+      <article>83 Bi</article>
+      <p>Vismut</p>
+    </div>
+    <div class="metall">
+      <article>84 Po</article>
+      <p>Polonium</p>
+    </div>
+    <div class="ikke-metall">
+      <article>85 At</article>
+      <p>Astat</p>
+    </div>
+    <div class="ikke-metall">
+      <article>86 Rn</article>
+      <p>Radon</p>
+    </div>
+    <div class="metall">
+      <article>87 Fr</article>
+      <p>Francium</p>
+    </div>
+    <div class="metall">
+      <article>88 Ra</article>
+      <p>Radium</p>
+    </div>
+    <div class="metall">
+      <article>89-103</article>
+      <p>Aktinoider</p>
+    </div>
+    <div class="metall">
+      <article>104 Rf</article>
+      <p>Rutherfordium</p>
+    </div>
+    <div class="metall">
+      <article>105 Db</article>
+      <p>Dubnium</p>
+    </div>
+    <div class="metall">
+      <article>106 Sg</article>
+      <p>Seaborgium</p>
+    </div>
+    <div class="metall">
+      <article>107 Bh</article>
+      <p>Bohrium</p>
+    </div>
+    <div class="metall">
+      <article>108 Hs</article>
+      <p>Hassium</p>
+    </div>
+    <div class="metall">
+      <article>109 Mt</article>
+      <p>Meitnerium</p>
+    </div>
+    <div class="metall">
+      <article>110 Ds</article>
+      <p>Darmstadtium</p>
+    </div>
+    <div class="metall">
+      <article>111 Rg</article>
+      <p>Røntgenium</p>
+    </div>
+    <div class="metall">
+      <article>112 Cn</article>
+      <p>Copernicium</p>
+    </div>
+    <div class="metall">
+      <article>113 Nh</article>
+      <p>Nihonium</p>
+    </div>
+    <div class="metall">
+      <article>114 Fl</article>
+      <p>Flerovium</p>
+    </div>
+    <div class="metall">
+      <article>115 Mc</article>
+      <p>Moscovium</p>
+    </div>
+    <div class="metall">
+      <article>116 Lv</article>
+      <p>Livermorium</p>
+    </div>
+    <div class="metall">
+      <article>117 Ts</article>
+      <p>Tenness</p>
+    </div>
+    <div class="metall">
+      <article>118 Og</article>
+      <p>Oganesson</p>
+    </div>
+    <div class="NOP" id="alt">
+      <p>Kjemi</p>
+    </div>
+    <div class="NOP" id="fire"></div>
+    <div class="metall">
+      <article>57 La</article>
+      <p>Lantan</p>
+    </div>
+    <div class="metall">
+      <article>58 Ce</article>
+      <p>Cerium</p>
+    </div>
+    <div class="metall">
+      <article>59 Pr</article>
+      <p>Praseodym</p>
+    </div>
+    <div class="metall">
+      <article>60 Nd</article>
+      <p>Neodym</p>
+    </div>
+    <div class="metall">
+      <article>61 Pm</article>
+      <p>Promethium</p>
+    </div>
+    <div class="metall">
+      <article>62 Sm</article>
+      <p>Samarium</p>
+    </div>
+    <div class="metall">
+      <article>63 Eu</article>
+      <p>Europium</p>
+    </div>
+    <div class="metall">
+      <article>64 Gd</article>
+      <p>Gadolinium</p>
+    </div>
+    <div class="metall">
+      <article>65 Tb</article>
+      <p>Terbium</p>
+    </div>
+    <div class="metall">
+      <article>66 Dy</article>
+      <p>Dysprosium</p>
+    </div>
+    <div class="metall">
+      <article>67 Ho</article>
+      <p>Holmium</p>
+    </div>
+    <div class="metall">
+      <article>68 Er</article>
+      <p>Erbium</p>
+    </div>
+    <div class="metall">
+      <article>69 Tm</article>
+      <p>Thulium</p>
+    </div>
+    <div class="metall">
+      <article>70 Yb</article>
+      <p>Ytterbium</p>
+    </div>
+    <div class="metall">
+      <article>71 Lu</article>
+      <p>Lutetium</p>
+    </div>
+    <div class="NOP" id="fire"></div>
+    <div class="metall">
+      <article>89 Ac</article>
+      <p>Actinium</p>
+    </div>
+    <div class="metall">
+      <article>90 Th</article>
+      <p>Thorium</p>
+    </div>
+    <div class="metall">
+      <article>91 Pa</article>
+      <p>Protactinium</p>
+    </div>
+    <div class="metall">
+      <article>92 U</article>
+      <p>Uran</p>
+    </div>
+    <div class="metall">
+      <article>93 Np</article>
+      <p>Neptunium</p>
+    </div>
+    <div class="metall">
+      <article>94 Pu</article>
+      <p>Plutonium</p>
+    </div>
+    <div class="metall">
+      <article>95 Am</article>
+      <p>Americium</p>
+    </div>
+    <div class="metall">
+      <article>96 Cm</article>
+      <p>Curium</p>
+    </div>
+    <div class="metall">
+      <article>97 Bk</article>
+      <p>Berkelium</p>
+    </div>
+    <div class="metall">
+      <article>98 Cf</article>
+      <p>Californium</p>
+    </div>
+    <div class="metall">
+      <article>99 Es</article>
+      <p>Einsteinium</p>
+    </div>
+    <div class="metall">
+      <article>100 Fm</article>
+      <p>Fermium</p>
+    </div>
+    <div class="metall">
+      <article>101 Md</article>
+      <p>Mendelevium</p>
+    </div>
+    <div class="metall">
+      <article>102 No</article>
+      <p>Nobelium</p>
+    </div>
+    <div class="metall">
+      <article>103 Lr</article>
+      <p>Lawrencium</p>
+    </div>
+  </div>
+</body>
+
 </html>
