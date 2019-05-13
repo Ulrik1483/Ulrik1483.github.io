@@ -34,3 +34,7 @@ img{
 .skip:active{
   transform: rotate(90deg);
 }
+a{
+  color: black;
+  text-decoration: none;
+}
