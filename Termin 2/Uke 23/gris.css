@@ -1,0 +1,27 @@
+@keyframes fly {
+    to {
+        transform: scale(6.2)rotate(1turn)translateX(20px)translateY(-10px);
+    }
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    background-color: darkblue;
+    display: grid;
+    grid-template-columns: 10fr 9fr 8fr 7fr 6fr 5fr 4fr 3fr 2fr 1fr 2fr 3fr 4fr 5fr 6fr 7fr 8fr 9fr 10fr;
+    grid-gap: 10px;
+}
+
+img {
+    width: 100%;
+    animation: fly 8s ease-in-out infinite alternate;
+    transform: scale(4)rotate(0);
+}
+
+img:hover {
+    animation-play-state: paused;
+}
